@@ -19,95 +19,229 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-xl navbar-light bg-light">
-        <div class="container">
-            <a class="navbar-brand" href="#">
-                <img class="navbar-logo" style="max-height: 2.8rem;" src="https://src.guap.ru/logos/guap_new_year.png?1"
-                    alt="ГУАП">
-            </a>
-            <ul style="gap: 10px;" class="d-flex m-0 align-items-center d-xl-none">
-                <li style="border: 0;" class="dropdown navbar-toggler">
-                    <a style="color: #999;" id="ddl01" title="Languages" data-bs-toggle="dropdown"
-                        role="button"><span>RU</span></a>
-                    <ul class="dropdown-menu">
-                        <li><a href="http://suai.ru/"><span>EN</span></a></li>
-                        <li><a href="http://suai.ru/"><span>CN</span></a></li>
-                        <li><a href="http://suai.ru/"><span>FR</span></a></li>
-                        <li><a href="http://suai.ru/"><span>ES</span></a></li>
-                    </ul>
-                </li>
-                <li class="button">
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                </li>
-            </ul>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item"><a class="nav-link nav-link-small" href="/targets/schools">Школьникам</a></li>
-                    <li class="nav-item"><a class="nav-link nav-link-small"
-                            href="https://priem.guap.ru"><b>Поступающим</b></a></li>
-                    <li class="nav-item"><a class="nav-link nav-link-small" href="/targets/studs">Обучающимся</a></li>
-                    <li class="nav-item"><a class="nav-link nav-link-small" href="/targets/sotrs">Сотрудникам</a></li>
-                    <li class="nav-item"><a class="nav-link nav-link-small" href="/targets/vips">Выпускникам</a></li>
+    <header class="header mb-3">
+        <nav class="header-nav navbar navbar-expand-xl navbar-light bg-light">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <img class="navbar-logo" style="max-height: 2.8rem;"
+                        src="https://src.guap.ru/logos/guap_new_year.png?1" alt="ГУАП">
+                </a>
+                <ul style="gap: 10px;" class="d-flex p-0 m-0 align-items-center d-xl-none">
+                    <li style="border: 0;" class="dropdown navbar-toggler">
+                        <a style="color: #999;" id="ddl01" title="Languages" data-bs-toggle="dropdown"
+                            role="button"><span>RU</span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="http://suai.ru/"><span>EN</span></a></li>
+                            <li><a href="http://suai.ru/"><span>CN</span></a></li>
+                            <li><a href="http://suai.ru/"><span>FR</span></a></li>
+                            <li><a href="http://suai.ru/"><span>ES</span></a></li>
+                        </ul>
+                    </li>
+                    <li class="button">
+                        <button class="navbar-toggler" style="border: none; box-shadow: none;" type="button"
+                            data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+                            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                    </li>
                 </ul>
-                <a class="py-3 py-xl-0 nav-link" href="https://guap.ru/prioritet2030/"><img style="height: 28px;" class="logo2030"
-                        src="https://test.guap.ru/new1/img/logo2030.svg" alt=""></a>
-                <div class="module-navquick">
-                    <ul style="gap: 5px;" class="d-flex m-0 align-items-center d-none d-xl-flex">
-                        <li class="dropdown">
-                            <a style="color: #999;" id="ddl01" title="Languages" data-bs-toggle="dropdown"
-                                role="button"><span>RU</span></a>
-                            <ul class="dropdown-menu">
-                                <li><a href="http://suai.ru/"><span>EN</span></a></li>
-                                <li><a href="http://suai.ru/"><span>CN</span></a></li>
-                                <li><a href="http://suai.ru/"><span>FR</span></a></li>
-                                <li><a href="http://suai.ru/"><span>ES</span></a></li>
-                            </ul>
-                        </li>
-                        <li class="dropdown dropdown-center" data-bs-offset="10,20">
-                            <a id="ddl02" title="Расписания" data-bs-toggle="dropdown" role="button"><i
-                                    style="color: #999; font-size: 16.5pt;" class="gi gi-schedule"></i></a>
-                            <ul class="dropdown-menu">
-                                <li><a href="https://guap.ru/rasp">Расписание семестра</a></li>
-                                <li><a href="https://raspsess.guap.ru">Расписание сессии</a></li>
-                            </ul>
-                        </li>
-                        <li><a href="https://pro.guap.ru" title="Личные кабинеты преподавателей и студентов"><i
-                                    style="color: #999; font-size: 16.5pt;" class="gi gi-user"></i></a></li>
-                        <li>
-                            <a href="https://guap.ru/sveden/site"
-                                title="Информация для людей с ограниченными возможностями"><i
-                                    style="color: #999; font-size: 12.5pt;" class="fa fa-low-vision"
-                                    style="font-size: 12.5pt;"></i></a>
-                        </li>
-                        <li><a href="https://guap.ru/search" title="Поиск"><i class="fa fa-search"
-                                    style="color: #999; font-size: 12pt;"></i></a></li>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item"><a class="nav-link nav-link-small link"
+                                href="/targets/schools">Школьникам</a></li>
+                        <li class="nav-item"><a class="nav-link nav-link-small link" style="font-weight: 600;"
+                                href="https://priem.guap.ru">Поступающим</a></li>
+                        <li class="nav-item"><a class="nav-link nav-link-small link"
+                                href="/targets/studs">Обучающимся</a></li>
+                        <li class="nav-item"><a class="nav-link nav-link-small link"
+                                href="/targets/sotrs">Сотрудникам</a></li>
+                        <li class="nav-item"><a class="nav-link nav-link-small link"
+                                href="/targets/vips">Выпускникам</a></li>
                     </ul>
-                    <ul style="gap: 5px;" class="p-0 d-flex flex-column d-xl-none">
-                        <li class="dropdown dropdown-center" data-bs-offset="10,20">
-                            <a class="border-bottom py-2 d-block" id="ddl02" title="Расписания" data-bs-toggle="dropdown"
-                                role="button"><span style="color: #005aaa;">Расписание</span></a>
-                            <ul class="dropdown-menu">
-                                <li><a href="https://guap.ru/rasp">Расписание семестра</a></li>
-                                <li><a href="https://raspsess.guap.ru">Расписание сессии</a></li>
-                            </ul>
-                        </li>
-                        <li><a class="border-bottom py-2 d-block" href="https://pro.guap.ru"
-                                title="Личные кабинеты преподавателей и студентов"><span>Личный кабинет</span></a></li>
-                        <li>
-                            <a class="border-bottom py-2 d-block" href="https://guap.ru/sveden/site"
-                                title="Информация для людей с ограниченными возможностями"><span>Версия для людей с
-                                    ограниченными возможностями</span></a>
-                        </li>
-                        <li><a class="border-bottom py-2 d-block" href="https://guap.ru/search" title="Поиск"><span>Поиск по сайту</span></a></li>
-                    </ul>
+                    <a class="py-3 py-xl-0 nav-link" href="https://guap.ru/prioritet2030/"><img style="height: 28px;"
+                            class="logo2030" src="https://test.guap.ru/new1/img/logo2030.svg" alt=""></a>
+                    <div class="module-navquick">
+                        <ul style="gap: 5px;" class="d-flex m-0 align-items-center d-none d-xl-flex">
+                            <li class="dropdown">
+                                <a style="color: #999;" id="ddl01" title="Languages" data-bs-toggle="dropdown"
+                                    role="button"><span>RU</span></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="http://suai.ru/"><span>EN</span></a></li>
+                                    <li><a href="http://suai.ru/"><span>CN</span></a></li>
+                                    <li><a href="http://suai.ru/"><span>FR</span></a></li>
+                                    <li><a href="http://suai.ru/"><span>ES</span></a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown dropdown-center" data-bs-offset="10,20">
+                                <a id="ddl02" title="Расписания" data-bs-toggle="dropdown" role="button"><i
+                                        style="color: #999; font-size: 16.5pt;" class="gi gi-schedule"></i></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="https://guap.ru/rasp">Расписание семестра</a></li>
+                                    <li><a href="https://raspsess.guap.ru">Расписание сессии</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="https://pro.guap.ru" title="Личные кабинеты преподавателей и студентов"><i
+                                        style="color: #999; font-size: 16.5pt;" class="gi gi-user"></i></a></li>
+                            <li>
+                                <a href="https://guap.ru/sveden/site"
+                                    title="Информация для людей с ограниченными возможностями"><i
+                                        style="color: #999; font-size: 12.5pt;" class="fa fa-low-vision"
+                                        style="font-size: 12.5pt;"></i></a>
+                            </li>
+                            <li><a href="https://guap.ru/search" title="Поиск"><i class="fa fa-search"
+                                        style="color: #999; font-size: 12pt;"></i></a></li>
+                        </ul>
+                        <ul style="gap: 5px;" class="p-0 d-flex flex-column d-xl-none">
+                            <li class="dropdown dropdown-center" data-bs-offset="10,20">
+                                <a class="border-bottom py-2 d-block" id="ddl02" title="Расписания"
+                                    data-bs-toggle="dropdown" role="button"><span
+                                        style="color: #005aaa;">Расписание</span></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="https://guap.ru/rasp">Расписание семестра</a></li>
+                                    <li><a href="https://raspsess.guap.ru">Расписание сессии</a></li>
+                                </ul>
+                            </li>
+                            <li><a class="border-bottom py-2 d-block" href="https://pro.guap.ru"
+                                    title="Личные кабинеты преподавателей и студентов"><span>Личный кабинет</span></a>
+                            </li>
+                            <li>
+                                <a class="border-bottom py-2 d-block" href="https://guap.ru/sveden/site"
+                                    title="Информация для людей с ограниченными возможностями"><span>Версия для людей с
+                                        ограниченными возможностями</span></a>
+                            </li>
+                            <li><a class="border-bottom py-2 d-block" href="https://guap.ru/search"
+                                    title="Поиск"><span>Поиск по сайту</span></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <div class="py-2 header-logo d-none d-xl-block">
+            <div class="container">
+                <a class="d-inline-block" href="#">
+                    <img class="h-auto navbar-logo" style="width: 150px;"
+                        src="https://src.guap.ru/logos/guap_new_year.png?1" alt="ГУАП">
+                </a>
+            </div>
+        </div>
+        <div class="header-banner" style="background: linear-gradient(90deg, #502D7F 0%, #00BEF3 100%);">
+            <div class="container">
+                <div class="header-contacts pt-4 d-md-flex d-block" style="gap: 10px">
+                    <div class="py-md-0 py-2 d-flex align-items-center" style="color: white;"><i
+                            class="fa fa-phone-square" aria-hidden="true"></i><a class="px-2 link"
+                            style="text-decoration-color: white !important;color: white !important;"
+                            href="tel:(812) 571-16-89">(812) 571-16-89</a></div>
+                    <div class="py-md-0 py-2 d-flex align-items-center" style="color: white;"><i class="fa fa-envelope"
+                            aria-hidden="true"></i><a class="px-2 link"
+                            style="text-decoration-color: white !important;color: white !important;"
+                            href="mailto:aerospace1@guap.ru">aerospace1@guap.ru</a></div>
+                </div>
+                <h1 class="py-3">Институт аэрокосмических приборов и систем</h1>
+                <div class="row header-info pb-4">
+                    <div class="col-lg-9 header-info_wrapper">
+                        <div class="row">
+                            <div class="col-md-2 col-4">
+                                <a class="d-flex flex-column align-items-center" href="/i01/" style="color: white">
+                                    <i class="gi gi-students"></i>
+                                    <p>1352</p>
+                                    <span>студента</span>
+                                </a>
+                            </div>
+                            <div class="col-md-2 col-4">
+                                <a class="d-flex flex-column align-items-center" href="/i01/" style="color: white">
+                                    <i class="gi gi-students"></i>
+                                    <p>1352</p>
+                                    <span>студента</span>
+                                </a>
+                            </div>
+                            <div class="col-md-2 col-4">
+                                <a class="d-flex flex-column align-items-center" href="/i01/" style="color: white">
+                                    <i class="gi gi-students"></i>
+                                    <p>1352</p>
+                                    <span>студента</span>
+                                </a>
+                            </div>
+                            <div class="col-md-2 col-4">
+                                <a class="d-flex flex-column align-items-center" href="/i01/" style="color: white">
+                                    <i class="gi gi-students"></i>
+                                    <p>1352</p>
+                                    <span>студента</span>
+                                </a>
+                            </div>
+                            <div class="col-md-2 col-4">
+                                <a class="d-flex flex-column align-items-center" href="/i01/" style="color: white">
+                                    <i class="gi gi-students"></i>
+                                    <p>1352</p>
+                                    <span>студента</span>
+                                </a>
+                            </div>
+                            <div class="col-md-2 col-4">
+                                <a class="d-flex flex-column align-items-center" href="/i01/" style="color: white">
+                                    <i class="gi gi-students"></i>
+                                    <p>1352</p>
+                                    <span>студента</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
-    </nav>
+    </header>
+    <main class="main">
+        <div class="container">
+            <div class="row flex-column-reverse flex-sm-row pt-4">
+                <div class="col-sm-9">
+                    <section class="about mb-5">
+                        <h2 class="about-title mb-3"><i class="gi gi-logo-i01 d-inline d-md-none"></i>Об институте</h2>
+                        <div class="about-contant d-flex">
+                            <i class="gi gi-logo-i01 d-none d-md-inline"></i>
+                            <p class="about_content-text">Институт аэрокосмических приборов и систем — признанный в России и за рубежом центр подготовки дипломированных специалистов, бакалавров и магистров в области современного приборостроения, систем управления движением и навигацией, передовых информационных аэрокосмических систем, технологии транспортных процессов и системного анализа. Известные научные школы и научные исследования в области приборостроения, аэродинамики и динамики полета летательных аппаратов, обеспечения безопасности подвижных объектов, спутникового мониторинга, систем обработки, информации, технической диагностики, создания малоразмерных летательных аппаратов и обеспечения их безопасной навигации являются основой партнерских отношений с коллегами из различных стран мира.Современная учебно-методическая и лабораторная база института позволяет использовать в учебном процессе передовые технологии обучения, позволяет студентам проводить прикладные исследования и вести проекты, позволяющие участвовать в профессиональных выставках и конкурсах.</p>
+                        </div>
+                    </section>
+                    <section class="message mb-5">
+                        <div class="message-info mb-3">
+                            <h3 class="message-title mb-3">Дорогие абитуриенты!</h3>
+                            <p class="message-info-text">Если вы выбрали одно из наших направлений, или у вас возник вопрос по оформлению документов, сотрудники института аэрокосмических приборов и систем с удовольствием проконсультируют вас по всем интересующим вопросам. <span class="message_info-text-bold">Пишите, звоните!</span></p>
+                        </div>
+                        <div class="row message-contacts">
+                            <div class="col-6 col-sm-5" style="background: #502D7F;"><h3 style="color: azure;">карточка челика</h3></div>
+                            <div class="col-6 col-sm-5" style="background: #00BEF3;"><h3 style="color: azure;">карточка челика</h3></div>
+                        </div>
+                    </section>
+                    <section class="video d-flex flex-column flex-xl-row mb-5" style="gap: 30px;">
+                        <div class="video-block-link">
+                            <iframe width="528" height="300" src="https://rutube.ru/play/embed/933365dfa21e74a8c464d8b635e74128" frameborder="0" allow="clipboard-write; autoplay" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>
+                        </div>
+                        <div class="video_block-text">
+                            <h4 class="video_block-title">Для поступающих</h4>
+                            <p class="video_block-text">Хотите узнать почему нужно поступать именно к нам, как будет проходить учебный процесс, какие профессии можно получить и кем потом работать? <br><br>Тогда смотрите видеоинтервью с директором института №1</p>
+                            <p class="video_block-description">Перечень образовательных программ, условия приема и вступительные испытания</p>
+                        </div>
+                    </section>
+                    <section class="news">
+                        <div class="news-title d-flex align-items-center justify-content-between pb-2 mb-3" style="border-bottom: 2px solid #005AAA;">
+                            <h4 class="news-title-text m-0">Новости</h4>
+                            <a href="https://new.guap.ru/pubs?nodes=53" class="news-title-link">
+                                <div class="news_title-link-wrapper d-flex align-items-center">
+                                    <p class="news-title-link-text">Все новости</p><i class="fa fa-fw fa-chevron-right"></i>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="row">
+                            <div class="col-12 col-xl-3 col-md-6" style="height: 130px; background-color: aquamarine;"><h2>Тут типа новости будут</h2></div>
+                            <div class="col-12 col-xl-3 col-md-6" style="height: 130px; background-color: cadetblue;"><h2>Тут типа новости будут</h2></div>
+                            <div class="col-12 col-xl-3 col-md-6" style="height: 130px; background-color: cornflowerblue;"><h2>Тут типа новости будут</h2></div>
+                            <div class="col-12 col-xl-3 col-md-6" style="height: 130px; background-color: coral;"><h2>Тут типа новости будут</h2></div>
+                        </div>
+                    </section>
+                </div>
+                <div class="col-sm-3 mb-4" style="height: 250px; background: black;">
+                    <h3 style="color: azure;">ТУТ БУДЕТ МЕНЮ</h3>
+                </div>
+            </div>
+        </div>
+    </main>
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"

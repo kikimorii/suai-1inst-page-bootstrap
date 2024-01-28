@@ -12,7 +12,7 @@
 
 body {
     font-family: 'Roboto', sans-serif;
-    font-weight: 400;
+    font-weight: 300;
     line-height: normal;
     color: #333333;
     box-sizing: border-box;
@@ -27,8 +27,12 @@ ul {
     list-style-type: none;
 }
 
-.fa {
-    font-family: 'Font Awesome 6 Free' !important;
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 700;
+}
+
+p {
+    margin-bottom: 0;
 }
 
 .navbar {
@@ -37,25 +41,55 @@ ul {
 
 
 /* кастомизация контейнера */
-.container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+.container,
+.container-fluid,
+.container-lg,
+.container-md,
+.container-sm,
+.container-xl,
+.container-xxl {
     padding-right: 0;
     padding-left: 0;
 }
 
 @media (min-width: 1400px) {
-    .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+
+    .container,
+    .container-lg,
+    .container-md,
+    .container-sm,
+    .container-xl,
+    .container-xxl {
         max-width: 1140px;
     }
 }
 
 @media (max-width: 576px) {
-    .container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+
+    .container,
+    .container-fluid,
+    .container-lg,
+    .container-md,
+    .container-sm,
+    .container-xl,
+    .container-xxl {
         padding-right: calc(var(--bs-gutter-x) * .5);
         padding-left: calc(var(--bs-gutter-x) * .5);
     }
 }
+
 /* кастомизация контейнера */
 
+
+@media (min-width: 576px) {
+    .row {
+        margin-left: 0;
+    }
+
+    .row>* {
+        padding-left: 0;
+    }
+}
 
 /* лого в навигации */
 .navbar-brand {
@@ -67,6 +101,7 @@ ul {
         display: block;
     }
 }
+
 /* лого в навигации */
 
 
@@ -89,13 +124,25 @@ ul {
 .dropdown-menu.show>li>a:hover {
     opacity: 0.8;
 }
+
 /* стилизация выпадающих меню */
 
-.navbar-nav > .nav-item > .nav-link-small {
+.navbar-nav>.nav-item>.nav-link-small {
     color: #005AAA;
 }
 
-.nav-link.nav-link-small:hover {
-    color: #e72b70;
+.link:hover {
+    color: #e72b70 !important;
     text-decoration: underline;
+    text-decoration-color: #e72b70 !important;
+    transition: none;
+}
+
+
+@media (max-width: 1200px) {
+    .video-block-link > iframe {
+        width: 100%;
+        height: auto;
+        aspect-ratio: 16/9;
+    }
 }
