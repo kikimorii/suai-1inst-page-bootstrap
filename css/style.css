@@ -25,6 +25,7 @@ a {
 
 ul {
     list-style-type: none;
+    padding-left: 0;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -144,5 +145,11 @@ p {
         width: 100%;
         height: auto;
         aspect-ratio: 16/9;
+    }
+}
+
+@media (max-width: 576px) {
+    .d-sm-contents {
+        display: contents;
     }
 }
