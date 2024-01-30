@@ -82,16 +82,6 @@ p {
 /* кастомизация контейнера */
 
 
-@media (min-width: 576px) {
-    .row {
-        margin-left: 0;
-    }
-
-    .row>* {
-        padding-left: 0;
-    }
-}
-
 /* лого в навигации */
 .navbar-brand {
     display: none;
@@ -157,4 +147,111 @@ p {
 .gi.gi-logo-i01.d-none.d-md-inline {
     font-size: 150px;
     color: #005AAA;
+}
+
+.d-flex.flex-column.align-items-center > i::before {
+    font-size: 63px;
+}
+
+a.d-flex.flex-column.align-items-center:hover {
+    opacity: 1 !important;
+}
+
+.message_contact-job {
+    font-size: 11px;
+}
+
+.video {
+    padding: 15px;
+    background: linear-gradient(90deg, #005AAA 0%, #AB3A8D 75%, #E72B70 100%);
+    color: white;
+}
+
+@media (max-width: 576px){
+    .video {
+        width: 100vw;
+        margin-left: calc(var(--bs-gutter-x) * -.5);
+    }
+}
+
+@media (max-width: 768px) {
+    .message_contact {
+        font-size: 12px;
+    }
+}
+
+.card-img-top {
+    border-radius: 3px;
+    box-shadow: 0px 0px 2.667px 0px rgba(0, 0, 0, 0.50);
+    object-fit: cover;
+    width: 100%;
+    height: auto;
+    aspect-ratio: 3/2;
+}
+
+.site-right-info, .site-menu {
+    padding-left: calc(var(--bs-gutter-x) * .5);
+    padding-right: calc(var(--bs-gutter-x) * .5);
+}
+
+.card {
+    border: none;
+}
+
+.card-body {
+    padding: 0;
+}
+
+.card-text {
+    color: #005aaa;
+}
+
+.graduate_list {
+    border-top: 2px solid #DFDFDF;
+    border-left: 2px solid #DFDFDF;
+}
+
+.graduate_item {
+    padding: 35px 25px;
+    border-right: 2px solid #DFDFDF;
+    border-bottom: 2px solid #DFDFDF;
+}
+
+.main_right-menu-item.active {
+    border-left: 2px solid #005AAA;
+    background: #F3F3F3;
+    border-image: linear-gradient(to bottom, #e72b70, #005aaa) 1 100%;
+}
+
+.main_right-menu-item:hover {
+    background-color: #f3f3f3;
+}
+
+@media (min-width: 576px) and (max-width: 768px){
+    .container {
+        max-width: 95%;
+    }
+}
+
+@media (max-width: 768px){
+    .card {
+        gap: 10px;
+    }
+    .card-img-top {
+        height: 100px;
+        width: auto;
+    }
+    .card-title {
+        font-size: 16px;
+    }
+}
+
+.main_right-info-link:hover {
+    border: solid 1px #e72b70;
+    border-bottom: solid 3px #e72b70 !important;
+    color: #e72b70;
+}
+
+.news-card-link:hover {
+    opacity: 0.8;
 }
