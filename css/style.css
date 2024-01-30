@@ -153,3 +153,8 @@ p {
         display: contents;
     }
 }
+
+.gi.gi-logo-i01.d-none.d-md-inline {
+    font-size: 150px;
+    color: #005AAA;
+}
