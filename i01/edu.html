@@ -1,21 +1,22 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Об институте – Институт аэрокосмических приборов и систем – ГУАП</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <title>Направления подготовки – Институт аэрокосмических приборов и систем – ГУАП</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700&amp;display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="../css/reset.css">
     <link rel="stylesheet" href="../css/style.css">
-    <link rel="stylesheet" href="../css/adapt.css">
     <link rel="stylesheet" href="../css/guap-icons.css">
     <link rel="stylesheet" href="../css/bootstrap-icons.css">
     <link rel="stylesheet" href="../awesome/all.css">
-    <link rel="shortcut icon" type="image/x-icon" href="new.guap.ru/favicon.png">
+    <link rel="shortcut icon" type="image/x-icon" href="https://new.guap.ru/favicon.png">
 </head>
+
 <body>
     <header class="header mb-3">
         <nav class="header-nav navbar navbar-expand-xl navbar-light bg-light">
@@ -197,14 +198,335 @@
             <div class="row flex-column-reverse flex-sm-row pt-4">
                 <div class="col-sm-7 col-md-8 col-lg-9 mb-5">
                     <section class="about mb-5">
-                        <h2 class="title mb-3 d-flex align-items-center" style="color: #000;">Направления подготовки</h2>
-                        <div class="page-content">
-                            <p>В разработке</p>
+                        <h2 class="title mb-3 d-flex align-items-center" style="color: #000;">Направления подготовки
+                        </h2>
+                        <ul class="nav nav-tabs" id="myTab" role="tablist">
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link active" id="bach-tab" data-bs-toggle="tab"
+                                    data-bs-target="#bach-tab-pane" type="button" role="tab"
+                                    aria-controls="bach-tab-pane" aria-selected="true">Бакалавриат</button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link" id="spec-tab" data-bs-toggle="tab"
+                                    data-bs-target="#spec-tab-pane" type="button" role="tab"
+                                    aria-controls="spec-tab-pane" aria-selected="true">Специалитет</button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link" id="mag-tab" data-bs-toggle="tab"
+                                    data-bs-target="#mag-tab-pane" type="button" role="tab"
+                                    aria-controls="mag-tab-pane" aria-selected="false">Магистратура</button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link" id="aspir-tab" data-bs-toggle="tab"
+                                    data-bs-target="#aspir-tab-pane" type="button" role="tab"
+                                    aria-controls="aspir-tab-pane" aria-selected="false">Аспирантура и докторантура</button>
+                            </li>
+                        </ul>
+                        <div class="tab-content" id="myTabContent" style="margin: 2em 0;">
+                            <div class="tab-pane fade show active" id="bach-tab-pane" role="tabpanel" aria-labelledby="bach-tab" tabindex="0">
+                                <h3 class="direction-title">Направление 12.03.01 — Приборостроение</h3>
+                                <ul class="direction-list">
+                                    <li class="direction-list-item">
+                                        <big class="direction-name">Авиационные приборы и измерительно-вычислительные комплексы</big>
+                                        <p>Выпускающая <a href="http://new.guap.ru/i01/k11">кафедра аэрокосмических измерительно-вычислительных комплексов</a></p>
+                                        <p class="tabs_contant-text">
+                                            <a target="_blank" href="https://download.guap.ru/sveden/6361/_oop_2023_1.pdf"><i class="fa fa-file-text" title="общая характеристика"></i></a>
+                                            <a href="https://download.guap.ru/sveden/6361/_uchplan_2023_1.pdf" target="_blank"><i class="fa fa-tasks" title="учебный план"></i></a>
+                                            <a href="https://download.guap.ru/sveden/6361/_calgr_2023_1.pdf" target="_blank"><i class="fa fa-calendar" title="календарный график"></i></a>
+                                            <a target="_blank" href="https://download.guap.ru/sveden/6361/files6361.zip"><i class="fa fa-file-zipper" title="документы дисциплин"></i></a>
+
+                                            — очная форма обучения:  <b class="tabs_contant-text-bold">4 года</b>
+                                        </p>
+                                    </li>
+                                </ul>
+
+                                <h3 class="direction-title">Направление 23.03.01 — Технология транспортных процессов</h3>
+                                <ul class="direction-list">
+                                    <li class="direction-list-item">
+                                        <big class="direction-name">Организация перевозок и управление в единой транспортной системе</big>
+                                        <p>Выпускающая <a href="http://new.guap.ru/i01/k12">кафедра системного анализа и логистики</a></p>
+                                        <p class="tabs_contant-text">
+                                            <a target="_blank" href="https://download.guap.ru/sveden/6362/_oop_2023_1.pdf"><i class="fa fa-file-text" title="общая характеристика"></i></a>
+                                            <a href="https://download.guap.ru/sveden/6362/_uchplan_2023_1.pdf" target="_blank"><i class="fa fa-tasks" title="учебный план"></i></a>
+                                            <a target="_blank" href="https://download.guap.ru/sveden/6362/_calgr_2023_1.pdf"><i class="fa fa-calendar" title="календарный график"></i></a>
+                                            <a href="https://download.guap.ru/sveden/6362/files6362.zip" target="_blank"><i class="fa fa-file-zipper" title="документы дисциплин"></i></a>
+
+                                            — очная форма обучения:  <b class="tabs_contant-text-bold">4 года</b>
+                                        </p>
+                                    </li>
+                                </ul>
+
+                                <h3 class="direction-title">Направление 27.03.03 — Системный анализ и управление</h3>
+                                <ul class="direction-list">
+                                    <li class="direction-list-item">
+                                        <big class="direction-name">Теория и математические методы системного анализа и управления в технических, экономических и социальных системах</big>
+                                        <p>Выпускающая <a href="http://new.guap.ru/i01/k12">кафедра системного анализа и логистики</a></p>
+                                        <p class="tabs_contant-text">
+                                            <a href="https://download.guap.ru/sveden/6363/_oop_2023_1.pdf" target="_blank"><i class="fa fa-file-text" title="общая характеристика"></i></a>
+                                            <a target="_blank" href="https://download.guap.ru/sveden/6363/_uchplan_2023_1.pdf"><i class="fa fa-tasks" title="учебный план"></i></a>
+                                            <a target="_blank" href="https://download.guap.ru/sveden/6363/_calgr_2023_1.pdf"><i class="fa fa-calendar" title="календарный график"></i></a>
+                                            <a href="https://download.guap.ru/sveden/6363/files6363.zip" target="_blank"><i class="fa fa-file-zipper" title="документы дисциплин"></i></a>
+
+                                            — очная форма обучения:  <b class="tabs_contant-text-bold">4 года</b>
+                                        </p>
+                                    </li>
+                                </ul>
+
+                                <h3 class="direction-title">Направление 24.03.02 — Системы управления движением и навигация</h3>
+                                <ul class="direction-list">
+                                    <li class="direction-list-item">
+                                        <big class="direction-name">Приборы и системы ориентации, стабилизации и навигации</big>
+                                        <p>Выпускающая <a href="http://new.guap.ru/i01/k11">кафедра аэрокосмических измерительно-вычислительных комплексов</a></p>
+                                        <p class="tabs_contant-text">
+                                            <a href="https://download.guap.ru/sveden/6367/_oop_2023_1.pdf" target="_blank"><i class="fa fa-file-text" title="общая характеристика"></i></a>
+                                            <a href="https://download.guap.ru/sveden/6367/_uchplan_2023_1.pdf" target="_blank"><i class="fa fa-tasks" title="учебный план"></i></a>
+                                            <a target="_blank" href="https://download.guap.ru/sveden/6367/_calgr_2023_1.pdf"><i class="fa fa-calendar" title="календарный график"></i></a>
+                                            <a href="https://download.guap.ru/sveden/6367/files6367.zip" target="_blank"><i class="fa fa-file-zipper" title="документы дисциплин"></i></a>
+
+                                            — очная форма обучения:  <b class="tabs_contant-text-bold">4 года</b>
+                                        </p>
+                                    </li>
+                                </ul>
+
+                                <h3 class="direction-title">Направление 25.03.01 — Техническая эксплуатация летательных аппаратов и двигателей</h3>
+                                <ul class="direction-list">
+                                    <li class="direction-list-item">
+                                        <big class="direction-name">Эксплуатация и испытания авиационной и космической техники</big>
+                                        <p>Выпускающая <a href="http://new.guap.ru/i01/k11">кафедра аэрокосмических измерительно-вычислительных комплексов</a></p>
+                                        <p class="tabs_contant-text">
+                                            <a target="_blank" href="https://download.guap.ru/sveden/6369/_oop_2023_1.pdf"><i class="fa fa-file-text" title="общая характеристика"></i></a>
+                                            <a href="https://download.guap.ru/sveden/6369/_uchplan_2023_1.pdf" target="_blank"><i class="fa fa-tasks" title="учебный план"></i></a>
+                                            <a href="https://download.guap.ru/sveden/6369/_calgr_2023_1.pdf" target="_blank"><i class="fa fa-calendar" title="календарный график"></i></a>
+                                            <a href="https://download.guap.ru/sveden/6369/files6369.zip" target="_blank"><i class="fa fa-file-zipper" title="документы дисциплин"></i></a>
+
+                                            — очная форма обучения:  <b class="tabs_contant-text-bold">4 года</b>
+                                        </p>
+                                    </li>
+                                </ul>
+
+                                <h3 class="direction-title">Направление 25.03.02 — Техническая эксплуатация авиационных электросистем и пилотажно-навигационных комплексов</h3>
+                                <ul class="direction-list">
+                                    <li class="direction-list-item">
+                                        <big class="direction-name">Техническое обслуживание и ремонт авионики</big>
+                                        <p>Выпускающая <a href="http://new.guap.ru/i01/k11">кафедра аэрокосмических измерительно-вычислительных комплексов</a></p>
+                                        <p class="tabs_contant-text">
+                                            <a href="https://download.guap.ru/sveden/6370/_oop_2023_1.pdf" target="_blank"><i class="fa fa-file-text" title="общая характеристика"></i></a>
+                                            <a target="_blank" href="https://download.guap.ru/sveden/6370/_uchplan_2023_1.pdf"><i class="fa fa-tasks" title="учебный план"></i></a>
+                                            <a href="https://download.guap.ru/sveden/6370/_calgr_2023_1.pdf" target="_blank"><i class="fa fa-calendar" title="календарный график"></i></a>
+                                            <a target="_blank" href="https://download.guap.ru/sveden/6370/files6370.zip"><i class="fa fa-file-zipper" title="документы дисциплин"></i></a>
+
+                                            — очная форма обучения:  <b class="tabs_contant-text-bold">4 года</b>
+                                        </p>
+                                    </li>
+                                </ul>
+
+                                <h3 class="direction-title">Направление 09.03.01 — Информатика и вычислительная техника</h3>
+                                <ul class="direction-list">
+                                    <li class="direction-list-item">
+                                        <big class="direction-name">Автоматизированные системы обработки информации и управления</big>
+                                        <p>Выпускающая <a href="http://new.guap.ru/i01/k14">кафедра аэрокосмических компьютерных и программных систем</a></p>
+                                        <p class="tabs_contant-text">
+                                            <a target="_blank" href="https://download.guap.ru/sveden/6148/_oop_2022_1.pdf"><i class="fa fa-file-text" title="общая характеристика"></i></a>
+                                            <a href="https://download.guap.ru/sveden/6148/_uchplan_2022_1.pdf" target="_blank"><i class="fa fa-tasks" title="учебный план"></i></a>
+                                            <a target="_blank" href="https://download.guap.ru/sveden/6148/_calgr_2022_1.pdf"><i class="fa fa-calendar" title="календарный график"></i></a>
+                                            <a href="https://download.guap.ru/sveden/6148/files6148.zip" target="_blank"><i class="fa fa-file-zipper" title="документы дисциплин"></i></a>
+
+                                            — очная форма обучения:  <b class="tabs_contant-text-bold">4 года</b>
+                                        </p>
+                                    </li>
+                                    <li class="direction-list-item">
+                                        <big class="direction-name">Интегрированные автоматизированные информационные системы</big>
+                                        <p>Выпускающая <a href="http://new.guap.ru/i01/k14">кафедра аэрокосмических компьютерных и программных систем</a></p>
+                                        <p class="tabs_contant-text">
+                                            <a target="_blank" href="https://download.guap.ru/sveden/6149/_oop_2022_1.doc"><i class="fa fa-file-text" title="общая характеристика"></i></a>
+                                            <a target="_blank" href="https://download.guap.ru/sveden/6149/_uchplan_2022_1.pdf"><i class="fa fa-tasks" title="учебный план"></i></a>
+                                            <a target="_blank" href="https://download.guap.ru/sveden/6149/_calgr_2022_1.pdf"><i class="fa fa-calendar" title="календарный график"></i></a>
+                                            <a target="_blank" href="https://download.guap.ru/sveden/6149/files6149.zip"><i class="fa fa-file-zipper" title="документы дисциплин"></i></a>
+
+                                            — очная форма обучения:  <b class="tabs_contant-text-bold">4 года</b>
+                                        </p>
+                                    </li>
+                                    <li class="direction-list-item">
+                                        <big class="direction-name">Программирование, аналитика данных и цифровая трансформация систем</big>
+                                        <p>Выпускающая <a href="http://new.guap.ru/i01/k14">кафедра аэрокосмических компьютерных и программных систем</a></p>
+                                        <p class="tabs_contant-text">
+                                            <a target="_blank" href="https://download.guap.ru/sveden/6374/_oop_2023_1.pdf"><i class="fa fa-file-text" title="общая характеристика"></i></a>
+                                            <a target="_blank" href="https://download.guap.ru/sveden/6374/_uchplan_2023_1.pdf"><i class="fa fa-tasks" title="учебный план"></i></a>
+                                            <a target="_blank" href="https://download.guap.ru/sveden/6374/_calgr_2023_1.pdf"><i class="fa fa-calendar" title="календарный график"></i></a>
+                                            <a target="_blank" href="https://download.guap.ru/sveden/6374/files6374.zip"><i class="fa fa-file-zipper" title="документы дисциплин"></i></a>
+
+                                            — очная форма обучения:  <b class="tabs_contant-text-bold">4 года</b>
+                                        </p>
+                                    </li>
+                                    <li class="direction-list-item">
+                                        <big class="direction-name">Программные системы анализа, обработки и передачи данных</big>
+                                        <p>Выпускающая <a href="http://new.guap.ru/i01/k14">кафедра аэрокосмических компьютерных и программных систем</a></p>
+                                        <p class="tabs_contant-text">
+                                            <a target="_blank" href="https://download.guap.ru/sveden/6373/_oop_2023_1.pdf"><i class="fa fa-file-text" title="общая характеристика"></i></a>
+                                            <a target="_blank" href="https://download.guap.ru/sveden/6373/_uchplan_2023_1.pdf"><i class="fa fa-tasks" title="учебный план"></i></a>
+                                            <a target="_blank" href="https://download.guap.ru/sveden/6373/_calgr_2023_1.pdf"><i class="fa fa-calendar" title="календарный график"></i></a>
+                                            <a target="_blank" href="https://download.guap.ru/sveden/6373/files6373.zip"><i class="fa fa-file-zipper" title="документы дисциплин"></i></a>
+
+                                            — очная форма обучения:  <b class="tabs_contant-text-bold">4 года</b>
+                                        </p>
+                                    </li>
+                                </ul>
+
+                                
+                            </div>
+                            <div class="tab-pane fade" id="spec-tab-pane" role="tabpanel" aria-labelledby="spec-tab" tabindex="0">
+                                <h3 class="direction-title">Направление 24.05.06 — Системы управления летательными аппаратами</h3>
+                                <ul class="direction-list">
+                                    <li class="direction-list-item">
+                                        <big class="direction-name">Приборы систем управления летательных аппаратов</big>
+                                        <p>Выпускающая <a href="http://new.guap.ru/i01/k11">кафедра аэрокосмических измерительно-вычислительных комплексов</a></p>
+                                        <p class="tabs_contant-text">
+                                            <a target="_blank" href="https://download.guap.ru/sveden/6368/_oop_2023_1.pdf"><i class="fa fa-file-text" title="общая характеристика"></i></a>
+                                            <a target="_blank" href="https://download.guap.ru/sveden/6368/_uchplan_2023_1.pdf"><i class="fa fa-tasks" title="учебный план"></i></a>
+                                            <a target="_blank" href="https://download.guap.ru/sveden/6368/_calgr_2023_1.pdf"><i class="fa fa-calendar" title="календарный график"></i></a>
+                                            <a target="_blank" href="https://download.guap.ru/sveden/6368/files6368.zip"><i class="fa fa-file-zipper" title="документы дисциплин"></i></a>
+                                            — очная форма обучения:  <span class="tabs_contant-text-bold">5 лет 6 мес</span>
+                                        </p>
+                                    </li>
+                                </ul>
+
+                                <h3 class="direction-title">Направление 25.05.02 — Техническая эксплуатация и восстановление электросистем и пилотажно-навигационных комплексов боевых летательных аппаратов</h3>
+                                <ul class="direction-list">
+                                    <li class="direction-list-item">
+                                        <big class="direction-name">Техническая эксплуатация и ремонт авиационных электросистем и пилотажно-навигационных комплексов</big>
+                                        <p>Выпускающая <a href="http://new.guap.ru/i01/k11">кафедра аэрокосмических измерительно-вычислительных комплексов</a></p>
+                                        <p class="tabs_contant-text">
+                                            <a target="_blank" href="https://download.guap.ru/sveden/6371/_oop_2023_1.pdf"><i class="fa fa-file-text" title="общая характеристика"></i></a>
+                                            <a target="_blank" href="https://download.guap.ru/sveden/6371/_uchplan_2023_1.pdf"><i class="fa fa-tasks" title="учебный план"></i></a>
+                                            <a target="_blank" href="https://download.guap.ru/sveden/6371/_calgr_2023_1.pdf"><i class="fa fa-calendar" title="календарный график"></i></a>
+                                            <a target="_blank" href="https://download.guap.ru/sveden/6371/files6371.zip"><i class="fa fa-file-zipper" title="документы дисциплин"></i></a>
+                                            — очная форма обучения:  <span class="tabs_contant-text-bold">5 лет</span>
+                                        </p>
+                                    </li>
+                                </ul>
+
+                                <h3 class="direction-title">Направление 09.05.01 — Применение и эксплуатация автоматизированных систем специального назначения</h3>
+                                <ul class="direction-list">
+                                    <li class="direction-list-item">
+                                        <big class="direction-name">Автоматизированные системы обработки информации и управления</big>
+                                        <p>Выпускающая <a href="http://new.guap.ru/i01/k14">кафедра аэрокосмических компьютерных и программных систем</a></p>
+                                        <p class="tabs_contant-text">
+                                            <a target="_blank" href="https://download.guap.ru/sveden/6151/_oop_2022_1.pdf"><i class="fa fa-file-text" title="общая характеристика"></i></a>
+                                            <a target="_blank" href="https://download.guap.ru/sveden/6151/_uchplan_2022_1.pdf"><i class="fa fa-tasks" title="учебный план"></i></a>
+                                            <a target="_blank" href="https://download.guap.ru/sveden/6151/_calgr_2022_1.pdf"><i class="fa fa-calendar" title="календарный график"></i></a>
+                                            <a target="_blank" href="https://download.guap.ru/sveden/6151/files6151.zip"><i class="fa fa-file-zipper" title="документы дисциплин"></i></a>
+                                            — очная форма обучения:  <span class="tabs_contant-text-bold">5 лет</span>
+                                        </p>
+                                    </li>
+                                    <li class="direction-list-item">
+                                        <big class="direction-name">Математическое, программное и информационное обеспечение вычислительной техники и автоматизированных систем</big>
+                                        <p>Выпускающая <a href="http://new.guap.ru/i01/k14">кафедра аэрокосмических компьютерных и программных систем</a></p>
+                                        <p class="tabs_contant-text">
+                                            <a href="https://download.guap.ru/sveden/6377/_oop_2023_1.pdf" target="_blank"><i class="fa fa-file-text" title="общая характеристика"></i></a>
+                                            <a target="_blank" href="https://download.guap.ru/sveden/6377/_uchplan_2023_1.pdf"><i class="fa fa-tasks" title="учебный план"></i></a>
+                                            <a href="https://download.guap.ru/sveden/6377/_calgr_2023_1.pdf" target="_blank"><i class="fa fa-calendar" title="календарный график"></i></a>
+                                            <a href="https://download.guap.ru/sveden/6377/files6377.zip" target="_blank"><i class="fa fa-file-zipper" title="документы дисциплин"></i></a>
+                                            — очная форма обучения:  <span class="tabs_contant-text-bold">5 лет</span>
+                                        </p>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="tab-pane fade" id="mag-tab-pane" role="tabpanel" aria-labelledby="mag-tab" tabindex="0">
+                                <h3 class="direction-title">Направление 12.04.01 — Приборостроение</h3>
+                                <ul class="direction-list">
+                                    <li class="direction-list-item">
+                                        <big class="direction-name">Измерительные информационные технологии</big>
+                                        <p class="tabs_contant-text">Выпускающая <a class="link" href="http://new.guap.ru/i01/k11">кафедра аэрокосмических измерительно-вычислительных комплексов</a></p>
+                                        <p class="tabs_contant-text">
+                                            <a target="_blank" href="https://download.guap.ru/sveden/6360/_oop_2023_1.pdf"><i class="fa fa-file-text"></i></a>
+                                            <a target="_blank" href="https://download.guap.ru/sveden/6360/_uchplan_2023_1.pdf"><i class="fa fa-tasks"></i></a>
+                                            <a target="_blank" href="https://download.guap.ru/sveden/6360/_calgr_2023_1.pdf"><i class="fa fa-calendar"></i></a>
+                                            <a target="_blank" href="https://download.guap.ru/sveden/6360/files6360.zip"><i class="fa fa-file-zipper"></i></a>
+                                             — очная форма обучения:  <span class="tabs_contant-text-bold">4 года</span>
+                                        </p>
+                                    </li>
+                                </ul>
+                                <h3 class="direction-title">Направление 12.04.01 — Приборостроение</h3>
+                                <ul class="direction-list">
+                                    <li class="direction-list-item">
+                                        <big class="direction-name">Интеллектуальные транспортные системы</big>
+                                        <p class="tabs_contant-text">Выпускающая <a class="link" href="http://new.guap.ru/i01/k12">кафедра системного анализа и логистики</a></p>
+                                        <p class="tabs_contant-text">
+                                            <a target="_blank" href="https://download.guap.ru/sveden/6365/_oop_2023_1.pdf"><i class="fa fa-file-text"></i></a>
+                                            <a target="_blank" href="https://download.guap.ru/sveden/6365/_uchplan_2023_1.pdf"><i class="fa fa-tasks"></i></a>
+                                            <a target="_blank" href="https://download.guap.ru/sveden/6365/_calgr_2023_1.pdf"><i class="fa fa-calendar"></i></a>
+                                            <a target="_blank" href="https://download.guap.ru/sveden/6365/files6365.zip"><i class="fa fa-file-zipper"></i></a>
+                                             — очная форма обучения:  <span class="tabs_contant-text-bold">4 года</span>
+                                        </p>
+                                    </li>
+                                </ul>
+                                <h3 class="direction-title">Направление 23.04.01 — Технология транспортных процессов</h3>
+                                <ul class="direction-list">
+                                    <li class="direction-list-item">
+                                        <big class="direction-name">Организация перевозок и управление в единой транспортной системе</big>
+                                        <p class="tabs_contant-text">Выпускающая <a class="link" href="http://new.guap.ru/i01/k12">кафедра системного анализа и логистики</a></p>
+                                        <p class="tabs_contant-text">
+                                            <a target="_blank" href="https://download.guap.ru/sveden/6364/_oop_2023_1.pdf"><i class="fa fa-file-text"></i></a>
+                                            <a target="_blank" href="https://download.guap.ru/sveden/6364/_uchplan_2023_1.pdf"><i class="fa fa-tasks"></i></a>
+                                            <a target="_blank" href="https://download.guap.ru/sveden/6364/_calgr_2023_1.pdf"><i class="fa fa-calendar"></i></a>
+                                            <a target="_blank" href="https://download.guap.ru/sveden/6364/files6364.zip"><i class="fa fa-file-zipper"></i></a>
+                                             — очная форма обучения:  <span class="tabs_contant-text-bold">4 года</span>
+                                        </p>
+                                    </li>
+                                </ul>
+                                <h3 class="direction-title">Направление 24.04.02 — Системы управления движением и навигация</h3>
+                                <ul class="direction-list">
+                                    <li class="direction-list-item">
+                                        <big class="direction-name">Приборы и системы ориентации, стабилизации и навигации</big>
+                                        <p class="tabs_contant-text">Выпускающая <a class="link" href="http://new.guap.ru/i01/k13">кафедра эксплуатации и управления аэрокосмическими системами</a></p>
+                                        <p class="tabs_contant-text">
+                                            <a target="_blank" href="https://download.guap.ru/sveden/6366/_oop_2023_1.pdf"><i class="fa fa-file-text" title="общая характеристика"></i></a>
+                                            <a target="_blank" href="https://download.guap.ru/sveden/6366/_uchplan_2023_1.pdf"><i class="fa fa-tasks" title="учебный план"></i></a>
+                                            <a target="_blank" href="https://download.guap.ru/sveden/6366/_calgr_2023_1.pdf"><i class="fa fa-calendar" title="календарный график"></i></a>
+                                            <a target="_blank" href="https://download.guap.ru/sveden/6366/files6366.zip"><i class="fa fa-file-zipper" title="документы дисциплин"></i></a>
+                                             — очная форма обучения:  <span class="tabs_contant-text-bold">4 года</span>
+                                        </p>
+                                    </li>
+                                </ul>
+                                <h3 class="direction-title">Направление 09.04.01 — Информатика и вычислительная техника</h3>
+                                <ul class="direction-list">
+                                    <li class="direction-list-item">
+                                        <big class="direction-name">Встроенные системы обработки информации и управления</big>
+                                        <p class="tabs_contant-text">Выпускающая <a class="link" href="http://new.guap.ru/i01/k11">кафедра аэрокосмических измерительно-вычислительных комплексов</a></p>
+                                        <p class="tabs_contant-text">
+                                            <a target="_blank" href="https://download.guap.ru/sveden/6372/_oop_2023_1.pdf"><i class="fa fa-file-text" title="общая характеристика"></i></a>
+                                            <a target="_blank" href="https://download.guap.ru/sveden/6372/_uchplan_2023_1.pdf"><i class="fa fa-tasks" title="учебный план"></i></a>
+                                            <a target="_blank" href="https://download.guap.ru/sveden/6372/_calgr_2023_1.pdf"><i class="fa fa-calendar" title="календарный график"></i></a>
+                                            <a target="_blank" href="https://download.guap.ru/sveden/6372/files6372.zip"><i class="fa fa-file-zipper" title="документы дисциплин"></i></a>
+                                             — очная форма обучения:  <span class="tabs_contant-text-bold">4 года</span>
+                                        </p>
+                                    </li>
+                                    <li class="direction-list-item">
+                                        <big class="direction-name">Встроенные системы обработки информации и управления (Embedded Systems)</big>
+                                        <p class="tabs_contant-text">Выпускающая <a class="link" href="http://new.guap.ru/i01/k11">кафедра аэрокосмических измерительно-вычислительных комплексов</a></p>
+                                        <p class="tabs_contant-text">
+                                            <a target="_blank" href="https://download.guap.ru/sveden/6150/_oop_2022_1.pdf"><i class="fa fa-file-text" title="общая характеристика"></i></a>
+                                            <a target="_blank" href="https://download.guap.ru/sveden/6150/_uchplan_2022_1.pdf"><i class="fa fa-tasks" title="учебный план"></i></a>
+                                            <a target="_blank" href="https://download.guap.ru/sveden/6150/_calgr_2022_1.pdf"><i class="fa fa-calendar" title="календарный график"></i></a>
+                                            <a target="_blank" href="https://download.guap.ru/sveden/6150/files6150.zip"><i class="fa fa-file-zipper" title="документы дисциплин"></i></a>
+                                             — очная форма обучения:  <span class="tabs_contant-text-bold">4 года</span>
+                                        </p>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="tab-pane fade" id="aspir-tab-pane" role="tabpanel" aria-labelledby="aspir-tab" tabindex="0">
+                                <p class="mb-3">Подготовку аспирантов, соискателей и докторантов обеспечивает <a class="link" href="https://guap.ru/aspira">отдел аспирантуры и докторантуры Учебного управления</a></p>
+                                <p class="mb-2">Имеются отделения:</p>
+                                <ul class="direction-list">
+                                    <li class="mb-2">контрактное (по договорам с физическими и юридическими лицами)</li>
+                                    <li>госбюджетное</li>
+                                </ul>
+                            </div>
                         </div>
                     </section>
                 </div>
-                <div class="col-sm-5 col-md-4 col-lg-3 d-sm-contents">
-                    <div class="site-menu mb-4">
+                <div class="col-sm-5 col-md-4 col-lg-3">
+                    <div class="site-menu mb-5">
                         <ul class="main_right-menu_list py-3 border rounded">
                             <li class="main_right-menu-item"><a href="../index.html" class="link d-block py-2 px-3">Об
                                     институте</a></li>
@@ -220,6 +542,16 @@
                                     class="link d-block py-2 px-3">Направления подготовки</a></li>
                             <li class="main_right-menu-item"><a href="contacts.html"
                                     class="link d-block py-2 px-3">Контакты</a></li>
+                        </ul>
+                    </div>
+                    <div class="site-right-info symbols mb-5">
+                        <h6 class="symbols-title">Условные обозначения:</h6>
+                        <hr>
+                        <ul class="symbols-list d-flex flex-column" style="gap: 0.7em;">
+                            <li class="d-flex justify-content-between"><i style="opacity: 0.75; color: #005aaa;" class="fa fa-file-text"></i><p class="symbol-text" style="width:90%;">общая характеристика образовательной программы</p></li>
+                            <li class="d-flex justify-content-between"><i style="opacity: 0.75; color: #005aaa;" class="fa fa-tasks"></i><p class="symbol-text" style="width:90%;">учебный план</p></li>
+                            <li class="d-flex justify-content-between"><i style="opacity: 0.75; color: #005aaa;" class="fa fa-calendar"></i><p class="symbol-text" style="width:90%;">календарный график</p></li>
+                            <li class="d-flex justify-content-between"><i style="opacity: 0.75; color: #005aaa;" class="fa fa-file-zipper"></i><p class="symbol-text" style="width:90%;">документы дисциплин (аннотации, раб. программы, метод. и иные док.)</p></li>
                         </ul>
                     </div>
                 </div>
@@ -307,7 +639,10 @@
 
 
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
     <script src="js/main.js"></script>
 </body>
+
 </html>

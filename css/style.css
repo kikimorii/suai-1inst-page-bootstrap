@@ -1,3 +1,7 @@
+:root {
+    --guap-color-primary-darker: #003666;
+}
+
 *,
 *::before,
 *::after {
@@ -105,6 +109,7 @@ p {
     padding: 0;
     min-width: 0;
     margin-top: 10px;
+    border: none;
 }
 
 .dropdown-menu.show>li>a {
@@ -262,4 +267,53 @@ a.d-flex.flex-column.align-items-center:hover {
 
 .page-content-text {
     margin-bottom: 1em;
+}
+
+.direction-title {
+    color: black;
+    font-size: 15.6pt;
+}
+
+.direction-list {
+    padding-left: 1.3em;
+    list-style-type: disc;
+}
+
+.direction-list-item > p > a:hover {
+    color: #e72b70 !important;
+    text-decoration: underline;
+    text-decoration-color: #e72b70 !important;
+    transition: none;
+}
+
+.direction-list-item > p {
+    opacity: 0.75;
+}
+
+.direction-list-item {
+    margin: 0.6em 0;
+}
+
+.nav-link.active {
+    color: #e72b70 !important;
+}
+
+.nav-link {
+    color: #005AAA;
+}
+
+/* footer */
+
+.text-light a {
+    color: #dee2e6;
+    opacity: .75;
+}
+
+.fs-6 {
+    font-size: .85rem!important;
+}
+
+footer > p {
+    margin-top: 0;
+    margin-bottom: 1rem;
 }
