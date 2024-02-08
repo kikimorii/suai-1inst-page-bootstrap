@@ -290,6 +290,7 @@ a.d-flex.flex-column.align-items-center:hover {
 
 .direction-list-item > p {
     opacity: 0.75;
+    margin-bottom: 0;
 }
 
 .direction-list-item {
