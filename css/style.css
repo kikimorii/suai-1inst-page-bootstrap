@@ -288,7 +288,7 @@ a.d-flex.flex-column.align-items-center:hover {
     transition: none;
 }
 
-.direction-list-item > p {
+.direction-list-item > p, .symbol-text {
     opacity: 0.75;
     margin-bottom: 0;
 }
