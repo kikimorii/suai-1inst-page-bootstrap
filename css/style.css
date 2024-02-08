@@ -333,3 +333,7 @@ footer {
 .btn:hover {
     text-decoration: none !important;
 }
+
+.nav-link {
+    text-wrap: nowrap;
+}
