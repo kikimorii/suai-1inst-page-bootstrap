@@ -334,6 +334,6 @@ footer {
     text-decoration: none !important;
 }
 
-.nav-link {
+.nav-item > button.nav-link {
     text-wrap: nowrap;
 }
