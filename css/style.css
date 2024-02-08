@@ -41,7 +41,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 p {
-    margin-bottom: 0;
+    margin-top: 0;
+    margin-bottom: 1rem;
 }
 
 .navbar {
@@ -124,8 +125,8 @@ p {
 .dropdown-menu.show>li>a:hover {
     opacity: 0.8;
 }
-
 /* стилизация выпадающих меню */
+
 
 .navbar-nav>.nav-item>.nav-link-small {
     color: #005AAA;
@@ -307,4 +308,28 @@ a.d-flex.flex-column.align-items-center:hover {
     flex-wrap: nowrap;
     overflow-x: auto;
     overflow-y: hidden;
+}
+
+/* footer */
+
+.text-light a {
+    color: #dee2e6;
+    opacity: .75;
+}
+
+.fs-6 {
+    font-size: .85rem!important;
+}
+
+footer {
+    font-weight: 400;
+}
+
+.text-light a:focus, .text-light a:hover {
+    opacity: 1;
+    text-decoration: underline;
+}
+
+.btn:hover {
+    text-decoration: none !important;
 }
