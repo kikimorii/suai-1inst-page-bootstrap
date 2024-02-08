@@ -338,3 +338,15 @@ footer {
     white-space: nowrap;
     max-height: 38px;
 }
+
+blockquote{
+    padding: 0 2em;
+    border-left: solid 4pt #e72b70;
+    border-width: 0 0 0 4pt;
+    border-style: solid;
+    -webkit-border-image: -webkit-gradient(linear,100% 0,0 0,from(#e72b70),to(#005aaa)) 1 100%;
+    -webkit-border-image: -webkit-linear-gradient(bottom,#e72b70,#005aaa) 1 100%;
+    -moz-border-image: -moz-linear-gradient(bottom,#e72b70,#005aaa) 1 100%;
+    -o-border-image: -o-linear-gradient(bottom,#e72b70,#005aaa) 1 100%;
+    border-image: linear-gradient(to bottom,#e72b70,#005aaa) 1 100%;
+}
