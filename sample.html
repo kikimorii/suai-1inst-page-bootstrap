@@ -1,6 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,12 +9,12 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700&amp;display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/guap-icons.css">
+
+    <link rel="stylesheet" href="css/guapicons.css">
     <link rel="stylesheet" href="css/bootstrap-icons.css">
     <link rel="stylesheet" href="awesome/all.css">
     <link rel="stylesheet" href="css/style.css">
-    <link rel="shortcut icon" type="image/x-icon" href="new.guap.ru/favicon.png">
+    <link rel="shortcut icon" type="image/x-icon" href="https://new.guap.ru/favicon.png">
 </head>
 
 <body>
@@ -380,14 +379,226 @@
 
 
     <div class="container">
-        <div class="h2">Разделение на две колонки</div>
+        <h2>Разделение на две колонки</h2>
     </div>
 
     <main class="main">
         <div class="container">
             <div class="row flex-column-reverse flex-sm-row pt-4">
                 <div class="col-sm-7 col-md-8 col-lg-9 mb-5">
-                    <h2>Тут контент</h2>
+                    <section class="about mb-5">
+                        <h2 class="title mb-3 d-flex align-items-center" style="color: #000;">Направления подготовки</h2>
+                        <ul class="nav nav-tabs" id="myTab" role="tablist">
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link active" id="bach-tab" data-bs-toggle="tab"
+                                    data-bs-target="#bach-tab-pane" type="button" role="tab"
+                                    aria-controls="bach-tab-pane" aria-selected="true">Бакалавриат</button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link" id="spec-tab" data-bs-toggle="tab"
+                                    data-bs-target="#spec-tab-pane" type="button" role="tab"
+                                    aria-controls="spec-tab-pane" aria-selected="true">Специалитет</button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link" id="mag-tab" data-bs-toggle="tab"
+                                    data-bs-target="#mag-tab-pane" type="button" role="tab"
+                                    aria-controls="mag-tab-pane" aria-selected="false">Магистратура</button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link" id="aspir-tab" data-bs-toggle="tab"
+                                    data-bs-target="#aspir-tab-pane" type="button" role="tab"
+                                    aria-controls="aspir-tab-pane" aria-selected="false">Аспирантура и докторантура</button>
+                            </li>
+                        </ul>
+                        <div class="tab-content" id="myTabContent" style="margin: 2em 0;">
+                            <div class="tab-pane fade show active" id="bach-tab-pane" role="tabpanel" aria-labelledby="bach-tab" tabindex="0">
+                                <h3 class="direction-title">Направление 12.03.01 — Приборостроение</h3>
+                                <ul class="direction-list">
+                                    <li class="direction-list-item">
+                                        <big class="direction-name">Авиационные приборы и измерительно-вычислительные комплексы</big>
+                                        <p>Выпускающая <a href="http://new.guap.ru/i01/k11">кафедра аэрокосмических измерительно-вычислительных комплексов</a></p>
+                                        <p class="tabs_contant-text">
+                                            <a target="_blank" href="https://download.guap.ru/sveden/6361/_oop_2023_1.pdf"><i class="fa fa-file-text" title="общая характеристика"></i></a>
+                                            <a href="https://download.guap.ru/sveden/6361/_uchplan_2023_1.pdf" target="_blank"><i class="fa fa-tasks" title="учебный план"></i></a>
+                                            <a href="https://download.guap.ru/sveden/6361/_calgr_2023_1.pdf" target="_blank"><i class="fa fa-calendar" title="календарный график"></i></a>
+                                            <a target="_blank" href="https://download.guap.ru/sveden/6361/files6361.zip"><i class="fa fa-file-zipper" title="документы дисциплин"></i></a>
+
+                                            — очная форма обучения:  <b class="tabs_contant-text-bold">4 года</b>
+                                        </p>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="tab-pane fade" id="spec-tab-pane" role="tabpanel" aria-labelledby="spec-tab" tabindex="0">
+                                <h3 class="direction-title">Направление 24.05.06 — Системы управления летательными аппаратами</h3>
+                                <ul class="direction-list">
+                                    <li class="direction-list-item">
+                                        <big class="direction-name">Приборы систем управления летательных аппаратов</big>
+                                        <p>Выпускающая <a href="http://new.guap.ru/i01/k11">кафедра аэрокосмических измерительно-вычислительных комплексов</a></p>
+                                        <p class="tabs_contant-text">
+                                            <a target="_blank" href="https://download.guap.ru/sveden/6368/_oop_2023_1.pdf"><i class="fa fa-file-text" title="общая характеристика"></i></a>
+                                            <a target="_blank" href="https://download.guap.ru/sveden/6368/_uchplan_2023_1.pdf"><i class="fa fa-tasks" title="учебный план"></i></a>
+                                            <a target="_blank" href="https://download.guap.ru/sveden/6368/_calgr_2023_1.pdf"><i class="fa fa-calendar" title="календарный график"></i></a>
+                                            <a target="_blank" href="https://download.guap.ru/sveden/6368/files6368.zip"><i class="fa fa-file-zipper" title="документы дисциплин"></i></a>
+                                            — очная форма обучения:  <span class="tabs_contant-text-bold">5 лет 6 мес</span>
+                                        </p>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="tab-pane fade" id="mag-tab-pane" role="tabpanel" aria-labelledby="mag-tab" tabindex="0">
+                                <h3 class="direction-title">Направление 12.04.01 — Приборостроение</h3>
+                                <ul class="direction-list">
+                                    <li class="direction-list-item">
+                                        <big class="direction-name">Измерительные информационные технологии</big>
+                                        <p class="tabs_contant-text">Выпускающая <a class="link" href="http://new.guap.ru/i01/k11">кафедра аэрокосмических измерительно-вычислительных комплексов</a></p>
+                                        <p class="tabs_contant-text">
+                                            <a target="_blank" href="https://download.guap.ru/sveden/6360/_oop_2023_1.pdf"><i class="fa fa-file-text"></i></a>
+                                            <a target="_blank" href="https://download.guap.ru/sveden/6360/_uchplan_2023_1.pdf"><i class="fa fa-tasks"></i></a>
+                                            <a target="_blank" href="https://download.guap.ru/sveden/6360/_calgr_2023_1.pdf"><i class="fa fa-calendar"></i></a>
+                                            <a target="_blank" href="https://download.guap.ru/sveden/6360/files6360.zip"><i class="fa fa-file-zipper"></i></a>
+                                             — очная форма обучения:  <span class="tabs_contant-text-bold">4 года</span>
+                                        </p>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="tab-pane fade" id="aspir-tab-pane" role="tabpanel" aria-labelledby="aspir-tab" tabindex="0">
+                                <p class="mb-3">Подготовку аспирантов, соискателей и докторантов обеспечивает <a class="link" href="https://guap.ru/aspira">отдел аспирантуры и докторантуры Учебного управления</a></p>
+                                <p class="mb-2">Имеются отделения:</p>
+                                <ul class="direction-list">
+                                    <li class="mb-2">контрактное (по договорам с физическими и юридическими лицами)</li>
+                                    <li>госбюджетное</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </section>
+                    <h4>Блок с видео</h4>
+                    <section class="video d-flex flex-column flex-xl-row mb-5" style="gap: 30px;">
+                        <div class="video-block-link">
+                            <iframe width="528" height="300"
+                                src="https://rutube.ru/play/embed/933365dfa21e74a8c464d8b635e74128" frameborder="0"
+                                allow="clipboard-write; autoplay" webkitallowfullscreen="" mozallowfullscreen=""
+                                allowfullscreen=""></iframe>
+                        </div>
+                        <div class="video_block-text">
+                            <h4 class="video_block-title">Для поступающих</h4>
+                            <p class="video_block-text mb-4">Хотите узнать почему нужно поступать именно к нам, как
+                                будет проходить учебный процесс, какие профессии можно получить и кем потом работать?
+                                <br><br>Тогда смотрите видеоинтервью с директором института №1</p>
+                            <a href="https://new.guap.ru/i01/priem" class="video_block-description link"
+                                style="font-size: 12px; color: white !important; text-decoration-color: white !important;">Перечень
+                                образовательных программ, условия приема и вступительные испытания</a>
+                        </div>
+                    </section>
+                    <h4>Блок с новостями</h4>
+                    <section class="news mb-5">
+                        <div class="news-title d-flex align-items-center justify-content-between pb-2 mb-3"
+                            style="border-bottom: 2px solid #005AAA;">
+                            <h4 class="news-title-text m-0 text-uppercase" style="color: #000;">Новости</h4>
+                            <div class="news_title-link-wrapper d-flex align-items-center">
+                                <a href="https://new.guap.ru/pubs?nodes=53"
+                                    class="news-title-link-text link text-uppercase"
+                                    style="text-decoration: none !important;">Все новости<i
+                                        class="fa fa-fw fa-chevron-right"></i></a>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-12 col-xl-3 col-md-6 mb-3">
+                                <a href="#" class="news-card-link">
+                                    <div class="card flex-row flex-md-column">
+                                        <img src="https://media.guap.ru/18813/_title.jpg?s=n" class="card-img-top mb-2"
+                                            alt="...">
+                                        <div class="card-body">
+                                            <h5 class="card-title">23 октября</h5>
+                                            <p class="card-text">Семинар по практике написания научных статей для
+                                                студентов бакалавров</p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-12 col-xl-3 col-md-6 mb-3">
+                                <a href="#" class="news-card-link">
+                                    <div class="card flex-row flex-md-column">
+                                        <img src="https://media.guap.ru/18813/_title.jpg?s=n" class="card-img-top mb-2"
+                                            alt="...">
+                                        <div class="card-body">
+                                            <h5 class="card-title">23 октября</h5>
+                                            <p class="card-text">Семинар по практике написания научных статей для
+                                                студентов бакалавров</p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-12 col-xl-3 col-md-6 mb-3">
+                                <a href="#" class="news-card-link">
+                                    <div class="card flex-row flex-md-column">
+                                        <img src="https://media.guap.ru/18813/_title.jpg?s=n" class="card-img-top mb-2"
+                                            alt="...">
+                                        <div class="card-body">
+                                            <h5 class="card-title">23 октября</h5>
+                                            <p class="card-text">Семинар по практике написания научных статей для
+                                                студентов бакалавров</p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-12 col-xl-3 col-md-6 mb-3">
+                                <a href="#" class="news-card-link">
+                                    <div class="card flex-row flex-md-column">
+                                        <img src="https://media.guap.ru/18813/_title.jpg?s=n" class="card-img-top mb-2"
+                                            alt="...">
+                                        <div class="card-body">
+                                            <h5 class="card-title">23 октября</h5>
+                                            <p class="card-text">Семинар по практике написания научных статей для
+                                                студентов бакалавров</p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </section>
+                    <h4>Блок с цитатой</h4>
+                    <section class="quote mb-5">
+                        <blockquote class="quote-contant"
+                        style="border-left: 4px solid #E72B70; padding-left: 2em; border-image: linear-gradient(to bottom, #e72b70, #005aaa) 1 100%; border-right: none; border-width: 0 0 0 4pt;">
+                            <q class="quote-text" style="font-size: 1.4em;">Здесь традиции инженерного образования
+                                встречаются с будущим</q>
+                            <footer class="quote-footer d-flex pt-4" style="gap: 20px;">
+                                <img src="https://media.guap.ru/1021/maiorov_nn.jpg?s=xs" alt="" class="quote_img"
+                                    style="width: 80px; height: 80px; border-radius: 100%;">
+                                <div class="quote_footer-text">
+                                    <h6 class="quote_name">Майоров Николай Николаевич</h6>
+                                    <div class="quote_rang">директор института аэрокосмических приборов и систем, доктор
+                                        технических наук, доцент</div>
+                                </div>
+                            </footer>
+                        </blockquote>
+                    </section>
+                    <h4>Выдающиеся выпускники</h4>
+                    <section class="graduate mb-5">
+                        <h3 class="graduate_title py-3" style="color: #000;">Наши выдающиеся выпускники</h3>
+                        <div class="graduate_list row">
+                            <div class="graduate_item col-12 col-md-6 col-lg-4 d-flex flex-column align-items-center">
+                                <img src="https://media.guap.ru/1021/lapin_vv.jpg?s=xs" alt="#"
+                                    class="graduate_item-img mb-2" style="width: 130px; border-radius: 100%;">
+                                <h6 class="graduate_item-name text-center">Вячеслав Лапин</h6>
+                                <p class="graduate_item-rang text-center">генеральный директор ОАО «Ульяновский
+                                    механический завод»</p>
+                            </div>
+                            <div class="graduate_item col-12 col-md-6 col-lg-4 d-flex flex-column align-items-center">
+                                <img src="https://media.guap.ru/1021/poltavchenko_gs.jpg?s=xs" alt="#"
+                                    class="graduate_item-img mb-2" style="width: 130px; border-radius: 100%;">
+                                <h6 class="graduate_item-name text-center">Георгий Полтавченко</h6>
+                                <p class="graduate_item-rang text-center">председатель совета директоров АО
+                                    «Объединенная Судостроительная Корпорация»</p>
+                            </div>
+                            <div class="graduate_item col-12 col-lg-4 d-flex flex-column align-items-center">
+                                <img src="https://media.guap.ru/1021/shukalov_av.jpg?s=xs" alt="#"
+                                    class="graduate_item-img mb-2" style="width: 130px; border-radius: 100%;">
+                                <h6 class="graduate_item-name text-center">Анатолий Шукалов</h6>
+                                <p class="graduate_item-rang text-center">главный конструктор АО«ОКБ
+                                    «Электроавтоматика»им. П.А.Ефимова»</p>
+                            </div>
+                        </div>
+                    </section>
 
 
                 </div>
@@ -395,7 +606,7 @@
                     <div class="site-menu mb-4">
                         <h2>для побочных</h2>
                         <ul class="main_right-menu_list py-3 border rounded">
-                            <li class="main_right-menu-item active"><a href="../i01.html"
+                            <li class="main_right-menu-item active"><a href="../index.html"
                                     class="link d-block py-2 px-3">Об институте</a></li>
                             <li class="main_right-menu-item"><a href="history.html"
                                     class="link d-block py-2 px-3">История</a></li>
@@ -412,7 +623,7 @@
                         </ul>
                         <h2>для главной</h2>
                         <ul class="main_right-menu_list py-3 border rounded">
-                            <li class="main_right-menu-item active"><a href="i01.html" class="link d-block py-2 px-3">Об
+                            <li class="main_right-menu-item active"><a href="index.html" class="link d-block py-2 px-3">Об
                                     институте</a></li>
                             <li class="main_right-menu-item"><a href="i01/history.html"
                                     class="link d-block py-2 px-3">История</a></li>
@@ -476,47 +687,7 @@
             </div>
         </div>
     </main>
-
-
-    <div class="container">
-        <ul class="nav nav-tabs" id="myTab" role="tablist">
-            <li class="nav-item" role="presentation">
-                <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home-tab-pane"
-                    type="button" role="tab" aria-controls="home-tab-pane" aria-selected="true">Бакалавриат</button>
-            </li>
-            <li class="nav-item" role="presentation">
-                <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile-tab-pane"
-                    type="button" role="tab" aria-controls="profile-tab-pane"
-                    aria-selected="false">Магистратура</button>
-            </li>
-            <li class="nav-item" role="presentation">
-                <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact-tab-pane"
-                    type="button" role="tab" aria-controls="contact-tab-pane" aria-selected="false">Аспирантура и
-                    докторантура</button>
-            </li>
-        </ul>
-        <div class="tab-content" id="myTabContent">
-            <div class="tab-pane fade show active" id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab"
-                tabindex="0">
-                <p>первый</p>
-            </div>
-            <div class="tab-pane fade" id="profile-tab-pane" role="tabpanel" aria-labelledby="profile-tab" tabindex="0">
-                <p>второй</p>
-            </div>
-            <div class="tab-pane fade" id="contact-tab-pane" role="tabpanel" aria-labelledby="contact-tab" tabindex="0">
-                <p>третий</p>
-            </div>
-            <div class="tab-pane fade" id="disabled-tab-pane" role="tabpanel" aria-labelledby="disabled-tab"
-                tabindex="0">...</div>
-        </div>
-    </div>
-
-
-
-
-
-
-
+    
     <div class="container">
         <h2>Футер для всех</h2>
     </div>
@@ -626,8 +797,6 @@
         </div>
 
     </footer>
-
-
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
         crossorigin="anonymous"></script>
