@@ -1,0 +1,1342 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Подразделения – Институт аэрокосмических приборов и систем – ГУАП</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700&amp;display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/guapicons.css">
+    <link rel="stylesheet" href="../css/bootstrap-icons.css">
+    <link rel="stylesheet" href="../awesome/all.css">
+    <link rel="shortcut icon" type="image/x-icon" href="https://new.guap.ru/favicon.png">
+</head>
+
+<body>
+    <header class="header mb-3">
+        <nav class="header-nav navbar navbar-expand-xl navbar-light bg-light">
+            <div class="container">
+                <a class="navbar-brand" href="https://guap.ru/">
+                    <img class="navbar-logo" style="max-height: 2.8rem;"
+                        src="https://src.guap.ru/logos/guap_new_year.png?1" alt="ГУАП">
+                </a>
+                <ul style="gap: 10px;" class="d-flex p-0 m-0 align-items-center d-xl-none">
+                    <li style="border: 0;" class="dropdown navbar-toggler">
+                        <a style="color: #999;" id="ddl01" title="Languages" data-bs-toggle="dropdown"
+                            role="button"><span>RU</span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="http://suai.ru/"><span>EN</span></a></li>
+                        </ul>
+                    </li>
+                    <li class="button">
+                        <button class="navbar-toggler" style="border: none; box-shadow: none;" type="button"
+                            data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+                            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                    </li>
+                </ul>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item"><a class="nav-link nav-link-small link"
+                                href="https://new.guap.ru/targets/schools">Школьникам</a></li>
+                        <li class="nav-item"><a class="nav-link nav-link-small link" style="font-weight: 600;"
+                                href="https://priem.guap.ru">Поступающим</a></li>
+                        <li class="nav-item"><a class="nav-link nav-link-small link"
+                                href="https://new.guap.ru/targets/studs">Обучающимся</a></li>
+                        <li class="nav-item"><a class="nav-link nav-link-small link"
+                                href="https://new.guap.ru/targets/sotrs">Сотрудникам</a></li>
+                        <li class="nav-item"><a class="nav-link nav-link-small link"
+                                href="https://new.guap.ru/targets/vips">Выпускникам</a></li>
+                    </ul>
+                    <a class="py-3 py-xl-0 nav-link mx-0 mx-xl-3" href="https://guap.ru/prioritet2030/"><img
+                            style="height: 28px;" class="logo2030" src="https://test.guap.ru/new1/img/logo2030.svg"
+                            alt=""></a>
+                    <div class="module-navquick">
+                        <ul style="gap: 5px;" class="d-flex m-0 align-items-center d-none d-xl-flex">
+                            <li class="dropdown">
+                                <a class="td-n" style="color: #999 !important;" id="ddl01" title="Languages"
+                                    data-bs-toggle="dropdown" role="button"><span>RU</span></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="http://suai.ru/"><span>EN</span></a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown dropdown-center" data-bs-offset="10,20">
+                                <a id="ddl02" title="Расписания" data-bs-toggle="dropdown" role="button"><i
+                                        style="color: #999; font-size: 16.5pt;" class="gi gi-schedule"></i></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="https://guap.ru/rasp">Расписание семестра</a></li>
+                                    <li><a href="https://raspsess.guap.ru">Расписание сессии</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="https://pro.guap.ru" title="Личные кабинеты преподавателей и студентов"><i
+                                        style="color: #999; font-size: 16.5pt;" class="gi gi-user"></i></a></li>
+                            <li>
+                                <a href="https://guap.ru/sveden/site"
+                                    title="Информация для людей с ограниченными возможностями"><i
+                                        style="color: #999; font-size: 12.5pt;" class="fa fa-low-vision"
+                                        style="font-size: 12.5pt;"></i></a>
+                            </li>
+                            <li><a href="https://guap.ru/search" title="Поиск"><i class="fa fa-search"
+                                        style="color: #999; font-size: 12pt;"></i></a></li>
+                        </ul>
+                        <ul style="gap: 5px;" class="p-0 d-flex flex-column d-xl-none">
+                            <li class="dropdown dropdown-center" data-bs-offset="10,20">
+                                <a class="border-bottom py-2 d-block" id="ddl02" title="Расписания"
+                                    data-bs-toggle="dropdown" role="button"><span
+                                        style="color: #005aaa;">Расписание</span></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="https://guap.ru/rasp">Расписание семестра</a></li>
+                                    <li><a href="https://raspsess.guap.ru">Расписание сессии</a></li>
+                                </ul>
+                            </li>
+                            <li><a class="border-bottom py-2 d-block" href="https://pro.guap.ru"
+                                    title="Личные кабинеты преподавателей и студентов"><span>Личный кабинет</span></a>
+                            </li>
+                            <li>
+                                <a class="border-bottom py-2 d-block" href="https://guap.ru/sveden/site"
+                                    title="Информация для людей с ограниченными возможностями"><span>Версия для людей с
+                                        ограниченными возможностями</span></a>
+                            </li>
+                            <li><a class="border-bottom py-2 d-block" href="https://guap.ru/search"
+                                    title="Поиск"><span>Поиск по сайту</span></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <div class="py-2 header-logo d-none d-xl-block">
+            <div class="container">
+                <a class="d-inline-block" href="https://guap.ru/">
+                    <img class="h-auto navbar-logo" style="width: 150px;"
+                        src="https://src.guap.ru/logos/guap_new_year.png?1" alt="ГУАП">
+                </a>
+            </div>
+        </div>
+        <div class="header-banner" style="background: linear-gradient(90deg, #502D7F 0%, #00BEF3 100%);">
+            <div class="container">
+                <div class="header-contacts pt-4 d-md-flex d-block" style="gap: 10px">
+                    <div class="py-md-0 py-2 d-flex align-items-center" style="color: white;"><i
+                            class="fa fa-phone-square" aria-hidden="true"></i><a class="px-2 link"
+                            style="text-decoration-color: white !important;color: white !important;"
+                            href="tel:(812) 571-16-89">(812) 571-16-89</a></div>
+                    <div class="py-md-0 py-2 d-flex align-items-center" style="color: white;"><i class="fa fa-envelope"
+                            aria-hidden="true"></i><a class="px-2 link"
+                            style="text-decoration-color: white !important;color: white !important;"
+                            href="mailto:aerospace1@guap.ru">aerospace1@guap.ru</a></div>
+                </div>
+                <a href="../index.html" class="link" style="text-decoration-color: white !important;">
+                    <h1 class="py-3" style="color: white;">Институт аэрокосмических приборов и систем</h1>
+                </a>
+                <div class="row header-info">
+                    <div class="col-lg-9 header-info_wrapper">
+                        <div class="row">
+                            <div class="col-md-2 col-4 pb-2">
+                                <a class="d-flex flex-column align-items-center text-center" href="../index.html"
+                                    style="color: white; opacity: 0.8;">
+                                    <i class="gi gi-students"></i>
+                                    <p style="font-size: 24px;" class="d-flex flex-column">1352
+                                        <span style="font-size: 10px; max-width: 96px;">студента</span>
+                                    </p>
+                                </a>
+                            </div>
+                            <div class="col-md-2 col-4 pb-2">
+                                <a class="d-flex flex-column align-items-center text-center" href="depts.html"
+                                    style="color: white; opacity: 0.8;">
+                                    <i class="gi gi-base-cathedra"></i>
+                                    <p style="font-size: 24px;" class="d-flex flex-column">2
+                                        <span style="font-size: 10px; max-width: 96px;">базовые кафедры</span>
+                                    </p>
+                                </a>
+                            </div>
+                            <div class="col-md-2 col-4 pb-2">
+                                <a class="d-flex flex-column align-items-center text-center" href="collaboration.html"
+                                    style="color: white; opacity: 0.8;">
+                                    <i class="gi gi-international-projects"></i>
+                                    <p style="font-size: 24px;" class="d-flex flex-column">4
+                                        <span style="font-size: 10px; max-width: 96px;">международных проекта</span>
+                                    </p>
+                                </a>
+                            </div>
+                            <div class="col-md-2 col-4 pb-2">
+                                <a class="d-flex flex-column align-items-center text-center" href="edu.html#mag-tab"
+                                    style="color: white; opacity: 0.8;">
+                                    <i class="gi gi-magister"></i>
+                                    <p style="font-size: 24px;" class="d-flex flex-column">6
+                                        <span style="font-size: 10px; max-width: 96px;">магистерских программ</span>
+                                    </p>
+                                </a>
+                            </div>
+                            <div class="col-md-2 col-4 pb-2">
+                                <a class="d-flex flex-column align-items-center text-center" href="science.html"
+                                    style="color: white; opacity: 0.8;">
+                                    <i class="gi gi-scientificgroups"></i>
+                                    <p style="font-size: 24px;" class="d-flex flex-column">8
+                                        <span style="font-size: 10px; max-width: 96px;">научно-исследовательских
+                                            групп</span>
+                                    </p>
+                                </a>
+                            </div>
+                            <div class="col-md-2 col-4 pb-2">
+                                <a class="d-flex flex-column align-items-center text-center"
+                                    href="http://www.salogistics.ru/index.php?option=com_content&task=view&id=50&Itemid=83"
+                                    style="color: white; opacity: 0.8;">
+                                    <i class="gi gi-science-journal"></i>
+                                    <p style="font-size: 24px;" class="d-flex flex-column">38
+                                        <span style="font-size: 10px; max-width: 96px;">выпусков научного журнала</span>
+                                    </p>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main class="main">
+        <div class="container">
+            <div class="row flex-column-reverse flex-sm-row pt-4">
+                <div class="col-sm-7 col-md-8 col-lg-9 mb-5">
+                    <section class="about mb-5">
+                        <h2 class="title mb-3 d-flex align-items-center" style="color: #000;">Кафедра аэрокосмических
+                            компьютерных и программных систем</h2>
+                        <ul class="nav nav-tabs" role="tablist">
+                            <li class="nav-item">
+                                <a class="nav-link active" data-toggle="tab" href="#tab_k14_1" role="tab">Краткой
+                                    строкой<br>о кафедре №14</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" data-toggle="tab" href="#tab_k14_2" role="tab">Преподаватели<br>и
+                                    сотрудники</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" data-toggle="tab" href="#tab_k14_3" role="tab">Направления
+                                    обучения,<br>учебный процесс</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" data-toggle="tab" href="#tab_k14_4" role="tab">Научные
+                                    направления,<br>история, достижения</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" data-toggle="tab" href="#tab_k14_5"
+                                    role="tab">Контактная<br>информация</a>
+                            </li>
+                        </ul>
+                        <div class="tab-content" style="margin: 2em 0;">
+                            <div class="tab-pane active" id="tab_k14_1" role="tabpanel">
+                                <section class="quote mb-5">
+                                    <blockquote class="quote-contant"
+                                        style="border-left: 4px solid #E72B70; padding-left: 2em; border-image: linear-gradient(to bottom, #e72b70, #005aaa) 1 100%; border-right: none; border-width: 0 0 0 4pt;">
+                                        <q class="quote-text" style="font-size: 1.2em;">Информационные технологии – это
+                                            неотъемлемая часть нашей повседневной жизни, а специалисты в этой области –
+                                            часть огромного глобального рынка, который может дать неограниченные
+                                            возможности для роста и развития. Мы создаем профессионалов в IT, которыми
+                                            гордимся!</q>
+                                        <footer class="quote-footer d-flex pt-4" style="gap: 20px;">
+                                            <img src="https://media.guap.ru/1021/olenev_vl.jpg?s=md" alt=""
+                                                class="quote_img"
+                                                style="width: 80px; height: 80px; border-radius: 100%;">
+                                            <div class="quote_footer-text">
+                                                <h6 class="quote_name">Оленев Валентин Леонидович</h6>
+                                                <div class="quote_rang">заведующий кафедрой, кандидат технических наук,
+                                                    доцент</div>
+                                            </div>
+                                        </footer>
+                                    </blockquote>
+                                </section>
+                                <section class="video d-flex flex-column flex-xl-row mb-5" style="gap: 30px;">
+                                    <div class="video-block-link">
+                                        <iframe width="534" height="300"
+                                            src="https://rutube.ru/play/embed/9e18eb5b58d5274d432feee989233c39"
+                                            frameborder="0" allow="clipboard-write" webkitallowfullscreen=""
+                                            mozallowfullscreen="" allowfullscreen=""></iframe>
+                                    </div>
+                                    <div class="video_block-text">
+                                        <h6 class="video_block-title">За 9 минут про бакалавриат, специалитет и
+                                            магистратуру кафедры №14</h6>
+                                        <small style="color:aliceblue;">
+                                            <ul class="list-margin" style="list-style-type: disc; margin-left: 1em;">
+                                                <li>
+                                                    Образовательные траектории: специалитет, бакалвриат, магистратура
+                                                </li>
+                                                <li>
+                                                    Где работают выпускники нашей кафедры
+                                                </li>
+                                                <li>
+                                                    Проектно-ориентированный подход к обучению, CDIO
+                                                </li>
+                                                <li>
+                                                    Преподаватели кафедры, пример проекта научного подразделения кафедры
+                                                </li>
+                                            </ul>
+                                        </small>
+                                    </div>
+                                </section>
+                                <section class="about-text">
+                                    <p>
+                                        Подготовка по направлению «Информатика и вычислительная техника» - это
+                                        подготовка высококлассных специалистов широкого профиля в области информационных
+                                        технологий, вычислительной техники и программного обеспечения, успешно
+                                        конкурирующих на международном рынке труда.
+                                    </p>
+                                    <p>
+                                        Без таких специалистов, без их знаний, умений и навыков не обойтись ни при
+                                        запуске космического корабля, ни при выполнении хирургической операции, ни при
+                                        создании современного производства, ни в работе современного музея, ни в банке,
+                                        ни в типографии, ни в аэропорту, ни на железной дороге, ни в магазине, ни в
+                                        библиотеке.
+                                    </p>
+
+                                    <p>
+                                        Без них не воспользоваться возможностями Internet и не создать новые сервисы в
+                                        глобальном сетевом киберпространстве, технологические основы для
+                                        телекоммуникаций нового поколения, не построить сети и data-центры для
+                                        глобальных компаний, не защитить компьютер от хакеров.
+                                    </p>
+                                    <h4>
+                                        Отличительные черты специальностей кафедры:
+                                    </h4>
+                                    <ul style="list-style-type: disc; margin-left: 1em;" class="list-margin">
+                                        <li>Системный уровень получаемых знаний и практических навыков, глубокая
+                                            подготовка в области программного обеспечения, вычислительной техники и
+                                            сетей, методах защиты информации.
+                                        </li>
+                                        <li>
+                                            Выпускники программ обладают знаниями по всей цепочке разработки современных
+                                            систем: от идеи к ее проектированию, реализации в программном обеспечении
+                                            или аппаратуре, и затем эксплуатации.
+                                        </li>
+                                        <li>
+                                            Проектная подготовка. Студенты реализуют проекты в рамках интересующих их
+                                            тематик, разбившись на команды. Задачи на проекты ставятся в соответствии с
+                                            потребностями индустрии и при консультации специалистов и представителей
+                                            индустриальных партнеров.
+                                        </li>
+                                        <li>
+                                            В ходе обучения студенты имеют возможность участвовать в
+                                            научно-исследовательских проектах кафедры, выполняемых в передовом
+                                            подразделении университета – <a href="https://vkist.guap.ru/"
+                                                target="_blank">Центре аэрокосмических исследований и разработок</a>.
+                                        </li>
+                                        <li>
+                                            Стажировки и обучение для студентов в высших учебных заведениях по всему
+                                            Миру, поддержка участия студента в международных конференциях, хакатонах и
+                                            конкурсах.
+                                        </li>
+                                        <li>
+                                            Выпускники кафедры без труда адаптируются к широкому кругу приложений,
+                                            быстро занимая лидирующее положение в коллективах разработчиков.
+                                        </li>
+                                        <li>
+                                            Возможность работы с уникальным оборудованием: высокоскоростные сервера,
+                                            стенды параллельной обработки данных, <a href="https://guap.ru/assist-spw"
+                                                target="_blank">Уникальная научная установка РФ «АССИСТ»</a>,
+                                            производственная линия монтажа печатных плат и др.
+                                        </li>
+                                        <li>
+                                            Образовательные программы, прошедшие международную аккредитацию. Программа
+                                            двух дипломов с университетом IPSA (Франция).
+                                        </li>
+                                        <li>
+                                            Лекции с преподавателями, работающими в российских и международных проектах,
+                                            передающие самые актуальные знания из предметной области.
+                                        </li>
+                                        <li> В магистратуре мы воспитываем высококлассных специалистов по профилю
+                                            встроенных систем, с уклоном в аэрокосмос. Наши ребята становятся системными
+                                            архитекторами по проектированию бортовых сетей, использующих новейшие
+                                            технологии. Специалистов с этим профилем на рынке крайне мало, и индустрия
+                                            крайне заинтересована в этих специалистах.</li>
+                                    </ul>
+                                    <h4>Кем могут работать наши выпускники:</h4>
+                                    <ul class="list-margin" style="list-style-type: disc; margin-left: 1em;">
+                                        <li>
+                                            Программисты широкого профиля и высокого уровня
+                                        </li>
+                                        <li>
+                                            Разработчики аппаратуры, систем сетей-на-кристалле, создатели
+                                            электронно-компонентной базы, микропроцессоров и т.п.
+                                        </li>
+                                        <li>
+                                            Тестировщики (программное обеспечение и аппаратура)
+                                        </li>
+                                        <li>
+                                            Проектировщики вычислительных сетей любого типа, системные администраторы
+                                        </li>
+                                        <li>
+                                            Системные архитекторы
+                                        </li>
+                                        <li>
+                                            Специалисты по защите информации, кодированию
+                                        </li>
+                                        <li>
+                                            Проектировщики баз данных, систем хранения и обработки информации
+                                        </li>
+                                        <li>
+                                            Разработчики нейронных сетей, систем обработки изображений и сигналов
+                                        </li>
+                                        <li>
+                                            Инженеры-исследователи, научные сотрудники
+                                        </li>
+                                        <li> Ученые, преподаватели в IT-области</li>
+                                    </ul>
+                                    <hr />
+                                    <h4>Научно-исследовательское подразделение: Центр аэрокосмических исследований
+                                        и&nbsp;разработок</h4>
+                                    <a href="https://vkist.guap.ru/" target="_blank">
+
+                                        <img style="width: 100%;" class="img-responsive"
+                                            src="https://guap.ru/content/k14/aero.jpg" />
+                                    </a>
+                                </section>
+                                <hr />
+                                <h4>Образовательные программы прошли процедуру международной аккредитации в
+                                    аккредитационном агентстве ASIIN</h4>
+                                <section class="two-block">
+                                    <div class="row">
+                                        <div class="col-12 col-lg-6 mb-3 mb-lg-0">
+                                            <img class="img-responsive" src="https://media.guap.ru/5203/001.jpg?s=md"
+                                                style="width: 17em;">
+                                        </div>
+                                        <div class="col-12 col-lg-6">
+                                            <b>Сертификаты ASIIN получили следующие образовательные программы:</b>
+                                            <ul class="list-margin" style="margin-left: 1em;list-style-type: disc;">
+                                                <li>
+                                                    <a class="link" href="https://new.guap.ru/i01/k14#tab_k14_3"
+                                                        target="_blank">09.04.01 Информатика и вычислительная техника -
+                                                        Встроенные системы обработки информации и управления (Embedded
+                                                        systems)</a> – реализуется кафедрой аэрокосмических компьютерных
+                                                    и программных систем
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </section>
+                                <hr />
+                                <h2>Открыта программа двух дипломов с французским университетом IPSA (Тулуза, Париж)
+                                </h2>
+                                <section class="two-block">
+                                    <div class="row">
+                                        <div class="col-12 col-lg-6 mb-3 mb-lg-0">
+                                            <img class="img-responsive" src="https://media.guap.ru/5210/_title.jpg?s=md"
+                                                style="width: 17em;">
+                                        </div>
+                                        <div class="col-12 col-lg-6">
+                                            <p>
+                                                Договор реализуется в рамках магистерской программы «Встроенные системы
+                                                обработки информации и управления (Embedded systems)». В программе
+                                                внедрены международные стандарты обучения CDIO.
+                                            </p>
+                                            <p>
+                                                Открыт прием также и иностранных студентов.
+                                            </p>
+                                            <p>
+                                                Магистранты учатся полностью на английском языке, выполняют
+                                                междисциплинарные семестровые проекты в совместных командах с
+                                                иностранными студентами.
+                                            </p>
+                                            <b>
+                                                За подробностями обращайтесь:
+                                            </b>
+                                            <p>
+                                                Кабинет: 52-33 (Б. Морская 67)<br />
+                                                Кабинет: 33-09 (Гастелло 15)<br />
+                                                Телефон: (812) 710-62-34, 494-70-51, 708-42-11<br />
+                                                Эл. почта: <a data-u="k14" class="link" href="mailto:k14@guap.ru"
+                                                    data-d="guap.ru">k14@guap.ru</a>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </section>
+                                <hr />
+                                <i class="fa-regular fa-file-pdf"></i><a class="link mx-2 file-pdf"
+                                    href="https://docs.guap.ru/sveden/struct/pols/k14.pdf">Положение о кафедре</a>
+                            </div>
+                            <div class="tab-pane" id="tab_k14_2" role="tabpanel">
+                                <div class="media d-flex align-items-center" style="gap: 10px;">
+                                    <img src="https://pro.guap.ru//avatars/163.jpg"
+                                        alt="Барклаевская Наталья Владимировна" class="media-img">
+                                    <div class="media-text d-flex flex-column">
+                                        <a class="fio link" target="_blank" href="https://pro.guap.ru/professors/163"
+                                            style="font-size: 1.1em;">Барклаевская Наталья Владимировна</a>
+                                        <span class="info">старший преподаватель</span>
+                                    </div>
+                                </div>
+
+                                <div class="media d-flex align-items-center" style="gap: 10px;">
+                                    <img src="https://pro.guap.ru//avatars/31715.png" alt="Бойко Арина Андреевна"
+                                        class="media-img">
+                                    <div class="media-text d-flex flex-column">
+                                        <a class="fio link" target="_blank" href="https://pro.guap.ru/professors/31715"
+                                            style="font-size: 1.1em;">Бойко Арина Андреевна</a>
+                                        <span class="info">ассистент</span>
+                                    </div>
+                                </div>
+
+                                <div class="media d-flex align-items-center" style="gap: 10px;">
+                                    <img src="https://pro.guap.ru//images/no_image.jpg" alt="Бунина Юлия Андреевна"
+                                        class="media-img">
+                                    <div class="media-text d-flex flex-column">
+                                        <a class="fio link" target="_blank" href="https://pro.guap.ru/professors/42074"
+                                            style="font-size: 1.1em;">Бунина Юлия Андреевна</a>
+                                        <span class="info">ассистент</span>
+                                    </div>
+                                </div>
+
+
+                                <div class="media d-flex align-items-center" style="gap: 10px;">
+                                    <img src="https://pro.guap.ru//avatars/166.jpg" alt="Горбачев Сергей Владимирович"
+                                        class="media-img">
+                                    <div class="media-text d-flex flex-column">
+                                        <a class="fio link" target="_blank" href="https://pro.guap.ru/professors/166"
+                                            style="font-size: 1.1em;">Горбачев Сергей Владимирович</a>
+                                        <span class="info">доцент, кандидат технических наук</span>
+                                    </div>
+                                </div>
+
+
+                                <div class="media d-flex align-items-center" style="gap: 10px;">
+                                    <img src="https://pro.guap.ru//avatars/42075.JPG"
+                                        alt="Док Цихон Гордон Франц Эмануэль" class="media-img">
+                                    <div class="media-text d-flex flex-column">
+                                        <a class="fio link" target="_blank" href="https://pro.guap.ru/professors/42075"
+                                            style="font-size: 1.1em;">Док Цихон Гордон Франц Эмануэль</a>
+                                        <span class="info">доцент, кандидат технических наук</span>
+                                    </div>
+                                </div>
+
+
+                                <div class="media d-flex align-items-center" style="gap: 10px;">
+                                    <img src="https://pro.guap.ru//avatars/15408.jpg" alt="Иванов Владимир Николаевич"
+                                        class="media-img">
+                                    <div class="media-text d-flex flex-column">
+                                        <a class="fio link" target="_blank" href="https://pro.guap.ru/professors/15408"
+                                            style="font-size: 1.1em;">Иванов Владимир Николаевич</a>
+                                        <span class="info">доцент, кандидат технических наук</span>
+                                    </div>
+                                </div>
+
+
+                                <div class="media d-flex align-items-center" style="gap: 10px;">
+                                    <img src="https://pro.guap.ru//avatars/38251.jpg"
+                                        alt="Карандашев Александр Александрович" class="media-img">
+                                    <div class="media-text d-flex flex-column">
+                                        <a class="fio link" target="_blank" href="https://pro.guap.ru/professors/38251"
+                                            style="font-size: 1.1em;">Карандашев Александр Александрович</a>
+                                        <span class="info">ассистент</span>
+                                    </div>
+                                </div>
+
+
+                                <div class="media d-flex align-items-center" style="gap: 10px;">
+                                    <img src="https://pro.guap.ru//avatars/39474.JPG" alt="Каширина Анна Александровна"
+                                        class="media-img">
+                                    <div class="media-text d-flex flex-column">
+                                        <a class="fio link" target="_blank" href="https://pro.guap.ru/professors/39474"
+                                            style="font-size: 1.1em;">Каширина Анна Александровна</a>
+                                        <span class="info">ассистент</span>
+                                    </div>
+                                </div>
+                                <div class="media d-flex align-items-center" style="gap: 10px;">
+                                    <img src="https://pro.guap.ru//avatars/39474.JPG" alt="Каширина Анна Александровна"
+                                        class="media-img">
+                                    <div class="media-text d-flex flex-column">
+                                        <a class="fio link" target="_blank" href="https://pro.guap.ru/professors/39474"
+                                            style="font-size: 1.1em;">Каширина Анна Александровна</a>
+                                        <span class="info">ассистент</span>
+                                    </div>
+                                </div>
+                                <div class="media d-flex align-items-center" style="gap: 10px;">
+                                    <img src="https://pro.guap.ru//avatars/171.jpg" alt="Луцив Вадим Ростиславович" class="media-img">
+                                    <div class="media-text d-flex flex-column">
+                                        <a class="fio link" target="_blank" href="https://pro.guap.ru/professors/171" style="font-size: 1.1em;">Луцив Вадим Ростиславович</a>
+                                        <span class="info">профессор, доктор технических наук</span>
+                                    </div>
+                                </div>
+
+                                <div class="media d-flex align-items-center" style="gap: 10px;">
+                                    <img src="https://pro.guap.ru//images/no_image.jpg" alt="Малашин Роман Олегович" class="media-img">
+                                    <div class="media-text d-flex flex-column">
+                                        <a class="fio link" target="_blank" href="https://pro.guap.ru/professors/26715" style="font-size: 1.1em;">Малашин Роман Олегович</a>
+                                        <span class="info">доцент, кандидат технических наук</span>
+                                    </div>
+                                </div>
+                                <div class="media d-flex align-items-center" style="gap: 10px;">
+                                    <img src="https://pro.guap.ru//avatars/174.jpg" alt="Овсянников Евгений Порфирьевич" class="media-img">
+                                    <div class="media-text d-flex flex-column">
+                                        <a class="fio link" target="_blank" href="https://pro.guap.ru/professors/174" style="font-size: 1.1em;">Овсянников Евгений Порфирьевич</a>
+                                        <span class="info">доцент, кандидат технических наук</span>
+                                    </div>
+                                </div>
+                                <div class="media d-flex align-items-center" style="gap: 10px;">
+                                    <img src="https://pro.guap.ru//avatars/889.JPG" alt="Оленев Валентин Леонидович" class="media-img">
+                                    <div class="media-text d-flex flex-column">
+                                        <a class="fio link" target="_blank" href="https://pro.guap.ru/professors/889" style="font-size: 1.1em;">Оленев Валентин Леонидович</a>
+                                        <span class="info">заведующий кафедрой, кандидат технических наук</span>
+                                    </div>
+                                </div>
+                                
+
+                                
+                            </div>
+                            <div class="tab-pane" id="tab_k14_3" role="tabpanel">
+                                <section class="direction-block">
+                                    <h3 style="color: #000;">Бакалавриат</h3>
+                                    <h3 class="direction-title">Направление 09.03.01 — Информатика и вычислительная
+                                        техника
+                                    </h3>
+                                    <ul class="direction-list">
+                                        <li class="direction-list-item">
+                                            <big class="direction-name">Автоматизированные системы обработки информации
+                                                и
+                                                управления</big>
+                                            <p>Выпускающая <a href="http://new.guap.ru/i01/k14">кафедра аэрокосмических
+                                                    компьютерных и программных систем</a></p>
+                                            <p class="tabs_contant-text">
+                                                <a target="_blank"
+                                                    href="https://download.guap.ru/sveden/6148/_oop_2022_1.pdf"><i
+                                                        class="fa fa-file-text" title="общая характеристика"></i></a>
+                                                <a href="https://download.guap.ru/sveden/6148/_uchplan_2022_1.pdf"
+                                                    target="_blank"><i class="fa fa-tasks" title="учебный план"></i></a>
+                                                <a target="_blank"
+                                                    href="https://download.guap.ru/sveden/6148/_calgr_2022_1.pdf"><i
+                                                        class="fa fa-calendar" title="календарный график"></i></a>
+                                                <a href="https://download.guap.ru/sveden/6148/files6148.zip"
+                                                    target="_blank"><i class="fa fa-file-zipper"
+                                                        title="документы дисциплин"></i></a>
+
+                                                — очная форма обучения: <b class="tabs_contant-text-bold">4 года</b>
+                                            </p>
+                                        </li>
+                                        <li class="direction-list-item">
+                                            <big class="direction-name">Интегрированные автоматизированные
+                                                информационные
+                                                системы</big>
+                                            <p>Выпускающая <a href="http://new.guap.ru/i01/k14">кафедра аэрокосмических
+                                                    компьютерных и программных систем</a></p>
+                                            <p class="tabs_contant-text">
+                                                <a target="_blank"
+                                                    href="https://download.guap.ru/sveden/6149/_oop_2022_1.doc"><i
+                                                        class="fa fa-file-text" title="общая характеристика"></i></a>
+                                                <a target="_blank"
+                                                    href="https://download.guap.ru/sveden/6149/_uchplan_2022_1.pdf"><i
+                                                        class="fa fa-tasks" title="учебный план"></i></a>
+                                                <a target="_blank"
+                                                    href="https://download.guap.ru/sveden/6149/_calgr_2022_1.pdf"><i
+                                                        class="fa fa-calendar" title="календарный график"></i></a>
+                                                <a target="_blank"
+                                                    href="https://download.guap.ru/sveden/6149/files6149.zip"><i
+                                                        class="fa fa-file-zipper" title="документы дисциплин"></i></a>
+
+                                                — очная форма обучения: <b class="tabs_contant-text-bold">4 года</b>
+                                            </p>
+                                        </li>
+                                        <li class="direction-list-item">
+                                            <big class="direction-name">Программирование, аналитика данных и цифровая
+                                                трансформация систем</big>
+                                            <p>Выпускающая <a href="http://new.guap.ru/i01/k14">кафедра аэрокосмических
+                                                    компьютерных и программных систем</a></p>
+                                            <p class="tabs_contant-text">
+                                                <a target="_blank"
+                                                    href="https://download.guap.ru/sveden/6374/_oop_2023_1.pdf"><i
+                                                        class="fa fa-file-text" title="общая характеристика"></i></a>
+                                                <a target="_blank"
+                                                    href="https://download.guap.ru/sveden/6374/_uchplan_2023_1.pdf"><i
+                                                        class="fa fa-tasks" title="учебный план"></i></a>
+                                                <a target="_blank"
+                                                    href="https://download.guap.ru/sveden/6374/_calgr_2023_1.pdf"><i
+                                                        class="fa fa-calendar" title="календарный график"></i></a>
+                                                <a target="_blank"
+                                                    href="https://download.guap.ru/sveden/6374/files6374.zip"><i
+                                                        class="fa fa-file-zipper" title="документы дисциплин"></i></a>
+
+                                                — очная форма обучения: <b class="tabs_contant-text-bold">4 года</b>
+                                            </p>
+                                        </li>
+                                        <li class="direction-list-item">
+                                            <big class="direction-name">Программные системы анализа, обработки и
+                                                передачи
+                                                данных</big>
+                                            <p>Выпускающая <a href="http://new.guap.ru/i01/k14">кафедра аэрокосмических
+                                                    компьютерных и программных систем</a></p>
+                                            <p class="tabs_contant-text">
+                                                <a target="_blank"
+                                                    href="https://download.guap.ru/sveden/6373/_oop_2023_1.pdf"><i
+                                                        class="fa fa-file-text" title="общая характеристика"></i></a>
+                                                <a target="_blank"
+                                                    href="https://download.guap.ru/sveden/6373/_uchplan_2023_1.pdf"><i
+                                                        class="fa fa-tasks" title="учебный план"></i></a>
+                                                <a target="_blank"
+                                                    href="https://download.guap.ru/sveden/6373/_calgr_2023_1.pdf"><i
+                                                        class="fa fa-calendar" title="календарный график"></i></a>
+                                                <a target="_blank"
+                                                    href="https://download.guap.ru/sveden/6373/files6373.zip"><i
+                                                        class="fa fa-file-zipper" title="документы дисциплин"></i></a>
+
+                                                — очная форма обучения: <b class="tabs_contant-text-bold">4 года</b>
+                                            </p>
+                                        </li>
+                                    </ul>
+                                    <h3 style="color: #000;" class="mt-4">Магистратура</h3>
+                                    <h3 class="direction-title">Направление 09.04.01 — Информатика и вычислительная
+                                        техника
+                                    </h3>
+                                    <ul class="direction-list">
+                                        <li class="direction-list-item">
+                                            <big class="direction-name">Встроенные системы обработки информации и
+                                                управления</big>
+                                            <p class="tabs_contant-text">Выпускающая <a class="link"
+                                                    href="http://new.guap.ru/i01/k11">кафедра аэрокосмических
+                                                    измерительно-вычислительных комплексов</a></p>
+                                            <p class="tabs_contant-text">
+                                                <a target="_blank"
+                                                    href="https://download.guap.ru/sveden/6372/_oop_2023_1.pdf"><i
+                                                        class="fa fa-file-text" title="общая характеристика"></i></a>
+                                                <a target="_blank"
+                                                    href="https://download.guap.ru/sveden/6372/_uchplan_2023_1.pdf"><i
+                                                        class="fa fa-tasks" title="учебный план"></i></a>
+                                                <a target="_blank"
+                                                    href="https://download.guap.ru/sveden/6372/_calgr_2023_1.pdf"><i
+                                                        class="fa fa-calendar" title="календарный график"></i></a>
+                                                <a target="_blank"
+                                                    href="https://download.guap.ru/sveden/6372/files6372.zip"><i
+                                                        class="fa fa-file-zipper" title="документы дисциплин"></i></a>
+                                                — очная форма обучения: <span class="tabs_contant-text-bold">4
+                                                    года</span>
+                                            </p>
+                                        </li>
+                                        <li class="direction-list-item">
+                                            <big class="direction-name">Встроенные системы обработки информации и
+                                                управления
+                                                (Embedded Systems)</big>
+                                            <p class="tabs_contant-text">Выпускающая <a class="link"
+                                                    href="http://new.guap.ru/i01/k11">кафедра аэрокосмических
+                                                    измерительно-вычислительных комплексов</a></p>
+                                            <p class="tabs_contant-text">
+                                                <a target="_blank"
+                                                    href="https://download.guap.ru/sveden/6150/_oop_2022_1.pdf"><i
+                                                        class="fa fa-file-text" title="общая характеристика"></i></a>
+                                                <a target="_blank"
+                                                    href="https://download.guap.ru/sveden/6150/_uchplan_2022_1.pdf"><i
+                                                        class="fa fa-tasks" title="учебный план"></i></a>
+                                                <a target="_blank"
+                                                    href="https://download.guap.ru/sveden/6150/_calgr_2022_1.pdf"><i
+                                                        class="fa fa-calendar" title="календарный график"></i></a>
+                                                <a target="_blank"
+                                                    href="https://download.guap.ru/sveden/6150/files6150.zip"><i
+                                                        class="fa fa-file-zipper" title="документы дисциплин"></i></a>
+                                                — очная форма обучения: <span class="tabs_contant-text-bold">4
+                                                    года</span>
+                                            </p>
+                                        </li>
+                                    </ul>
+                                    <h3 style="color: #000;" class="mt-4">Специалитет</h3>
+                                    <h3 class="direction-title">Направление 09.05.01 — Применение и эксплуатация
+                                        автоматизированных систем специального назначения</h3>
+                                    <ul class="direction-list">
+                                        <li class="direction-list-item">
+                                            <big class="direction-name">Автоматизированные системы обработки информации
+                                                и
+                                                управления</big>
+                                            <p>Выпускающая <a href="http://new.guap.ru/i01/k14">кафедра аэрокосмических
+                                                    компьютерных и программных систем</a></p>
+                                            <p class="tabs_contant-text">
+                                                <a target="_blank"
+                                                    href="https://download.guap.ru/sveden/6151/_oop_2022_1.pdf"><i
+                                                        class="fa fa-file-text" title="общая характеристика"></i></a>
+                                                <a target="_blank"
+                                                    href="https://download.guap.ru/sveden/6151/_uchplan_2022_1.pdf"><i
+                                                        class="fa fa-tasks" title="учебный план"></i></a>
+                                                <a target="_blank"
+                                                    href="https://download.guap.ru/sveden/6151/_calgr_2022_1.pdf"><i
+                                                        class="fa fa-calendar" title="календарный график"></i></a>
+                                                <a target="_blank"
+                                                    href="https://download.guap.ru/sveden/6151/files6151.zip"><i
+                                                        class="fa fa-file-zipper" title="документы дисциплин"></i></a>
+                                                — очная форма обучения: <span class="tabs_contant-text-bold">5
+                                                    лет</span>
+                                            </p>
+                                        </li>
+                                        <li class="direction-list-item">
+                                            <big class="direction-name">Математическое, программное и информационное
+                                                обеспечение вычислительной техники и автоматизированных систем</big>
+                                            <p>Выпускающая <a href="http://new.guap.ru/i01/k14">кафедра аэрокосмических
+                                                    компьютерных и программных систем</a></p>
+                                            <p class="tabs_contant-text">
+                                                <a href="https://download.guap.ru/sveden/6377/_oop_2023_1.pdf"
+                                                    target="_blank"><i class="fa fa-file-text"
+                                                        title="общая характеристика"></i></a>
+                                                <a target="_blank"
+                                                    href="https://download.guap.ru/sveden/6377/_uchplan_2023_1.pdf"><i
+                                                        class="fa fa-tasks" title="учебный план"></i></a>
+                                                <a href="https://download.guap.ru/sveden/6377/_calgr_2023_1.pdf"
+                                                    target="_blank"><i class="fa fa-calendar"
+                                                        title="календарный график"></i></a>
+                                                <a href="https://download.guap.ru/sveden/6377/files6377.zip"
+                                                    target="_blank"><i class="fa fa-file-zipper"
+                                                        title="документы дисциплин"></i></a>
+                                                — очная форма обучения: <span class="tabs_contant-text-bold">5
+                                                    лет</span>
+                                            </p>
+                                        </li>
+                                    </ul>
+                                    <h3 style="color: #000;" class="mt-4">Аспирантура</h3>
+                                    <h3 class="direction-title">Направление 09.06.01 — Информатика и вычислительная
+                                        техника</h3>
+                                    <ul class="direction-list">
+                                        <li class="direction-list-item">
+                                            <big class="direction-name">Математическое и программное обеспечение
+                                                вычислительных машин, комплексов и компьютерных сетей</big>
+                                            <p class="tabs_contant-text">Выпускающая <a class="link"
+                                                    href="http://new.guap.ru/i01/k14">кафедра аэрокосмических
+                                                    компьютерных и программных систем</a></p>
+                                            <p class="tabs_contant-text">
+                                                <a href="https://download.guap.ru/sveden/5903/_oop_2021_1.pdf"
+                                                    target="_blank"><i class="fa fa-file-text"
+                                                        title="общая характеристика"></i></a>
+                                                <a href="https://download.guap.ru/sveden/5903/_uchplan_2021_1.pdf"
+                                                    target="_blank"><i class="fa fa-tasks" title="учебный план"></i></a>
+                                                <a href="https://download.guap.ru/sveden/5903/_calgr_2021_1.pdf"
+                                                    target="_blank"><i class="fa fa-calendar"
+                                                        title="календарный график"></i></a>
+                                                <a target="_blank"
+                                                    href="https://download.guap.ru/sveden/5903/files5903.zip"><i
+                                                        class="fa fa-file-zipper" title="документы дисциплин"></i></a>
+                                                — очная форма обучения: <b class="tabs_contant-text-bold"
+                                                    title="Набор 2021 года" style="color: #404040;">4 года</b>
+                                            </p>
+                                        </li>
+                                    </ul>
+                                    <h3 class="direction-title">Направление 2.3.5 — Математическое и программное
+                                        обеспечение вычислительных систем, комплексов и компьютерных сетей</h3>
+                                    <ul class="direction-list">
+                                        <li class="direction-list-item">
+                                            <big class="direction-name">Общая направленность</big>
+                                            <p class="tabs_contant-text">Выпускающая <a class="link"
+                                                    href="http://new.guap.ru/i01/k14">кафедра аэрокосмических
+                                                    компьютерных и программных систем</a></p>
+                                            <p class="tabs_contant-text">
+                                                <a target="_blank"
+                                                    href="https://download.guap.ru/sveden/6508/_oop_2023_1.pdf"><i
+                                                        class="fa fa-file-text" title="общая характеристика"></i></a>
+                                                <a href="https://download.guap.ru/sveden/6508/_uchplan_2023_1.pdf"
+                                                    target="_blank"><i class="fa fa-tasks" title="учебный план"></i></a>
+                                                <a target="_blank"
+                                                    href="https://download.guap.ru/sveden/6508/_calgr_2023_1.pdf"><i
+                                                        class="fa fa-calendar" title="календарный график"></i></a>
+                                                <a target="_blank"
+                                                    href="https://download.guap.ru/sveden/6508/files6508.zip"><i
+                                                        class="fa fa-file-zipper" title="документы дисциплин"></i></a>
+                                                — очная форма обучения: <b class="tabs_contant-text-bold"
+                                                    title="Набор 2023 года" style="color: #404040;">3 года</b>
+                                            </p>
+                                        </li>
+                                    </ul>
+                                </section>
+                                <hr>
+                                <h4 style="color: #000;">Образовательные программы прошли процедуру международной
+                                    аккредитации в
+                                    аккредитационном агентстве ASIIN</h4>
+                                <section class="two-block">
+                                    <div class="row">
+                                        <div class="col-12 col-lg-6 mb-3 mb-lg-0">
+                                            <img class="img-responsive" src="https://media.guap.ru/5203/001.jpg?s=md"
+                                                style="width: 17em;">
+                                        </div>
+                                        <div class="col-12 col-lg-6">
+                                            <b>Сертификаты ASIIN получили следующие образовательные программы:</b>
+                                            <ul class="list-margin" style="margin-left: 1em;list-style-type: disc;">
+                                                <li>
+                                                    <a class="link" href="https://new.guap.ru/i01/k14#tab_k14_3"
+                                                        target="_blank">09.04.01 Информатика и вычислительная техника -
+                                                        Встроенные системы обработки информации и управления (Embedded
+                                                        systems)</a> – реализуется кафедрой аэрокосмических компьютерных
+                                                    и программных систем
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </section>
+                                <hr>
+                                <section class="about-text">
+                                    <h3 style="color: #000;">Техническое обеспечение учебного процесса </h3>
+
+                                    <p>
+                                        Обучение ведется в компьютерных классах кафедры, оснащенных современной
+                                        вычислительной техникой, в специализированных лабораториях, оснащенных:
+                                    </p>
+                                    <ul class="list-margin" style="margin-left: 1em;list-style-type: disc;">
+                                        <li>
+                                            Средствами изучения сетевых технологий, высокопроизводительными компьютерами
+                                            и серверами
+                                        </li>
+                                        <li>
+                                            Промышленными системами обработки информации и управления
+                                        </li>
+                                        <li>
+                                            Аппаратурой для параллельных вычислений и обработки информации
+                                        </li>
+                                        <li>
+                                            Различной микропроцессорной техникой и СБИС
+                                        </li>
+                                        <li>
+                                            Профессиональной производственной линией монтажа печатных плат
+                                        </li>
+                                        <li>
+
+                                            <a href="https://guap.ru/assist-spw" target="_blank">
+                                                Уникальной научной установкой РФ «АССИСТ»
+                                            </a>
+                                        </li>
+                                        <li>
+                                            Пространством для проектной деятельности студентов
+                                        </li>
+
+                                    </ul>
+
+                                    <p>
+                                        Основные дисциплины, формирующие специалиста:
+                                    </p>
+                                    <ul class="list-margin" style="margin-left: 1em;list-style-type: disc;">
+                                        <li>
+                                            Программирование, разработка программного обеспечения (Ассемблер, С/С++)
+                                        </li>
+                                        <li>
+                                            Математика, информатика и алгоритмизация, базовые алгоритмы обработки
+                                            информации
+                                        </li>
+                                        <li>
+                                            Базы данных, системы автоматизированного управления
+                                        </li>
+                                        <li>
+                                            Процессоры, микропроцессоры, системы- и сети-на-кристалле,
+                                        </li>
+                                        <li>
+                                            Интерфейсы встроенных аэрокосмических систем
+                                        </li>
+                                        <li>
+                                            Проектирование СБИС для встроенных систем (VHDL), языки спецификации и
+                                            моделирования
+                                        </li>
+                                        <li>
+                                            Вычислительные сети, телекоммуникации, сетевые стандарты, интеллектуальные
+                                            системы, бортовые аэрокосмические сети
+                                        </li>
+                                        <li>
+                                            Системы обработки данных и управления
+                                        </li>
+                                        <li>
+                                            Высокопроизводительные параллельные системы обработки данных
+                                        </li>
+                                        <li>
+                                            Теории информации и кодирования, системы сжатия, защиты и кодирования данных
+                                        </li>
+                                        <li>
+                                            Операционные системы реального времени для встроенных систем
+                                        </li>
+                                        <li>
+                                            Цифровая обработка изображений и сигналов
+                                        </li>
+
+                                    </ul>
+
+                                    <p>
+                                        Подготовка инженеров, бакалавров и магистров ведется в строгом соответствии с
+                                        федеральным образовательным стандартом и требованиями, предъявляемыми
+                                        международным рынком труда к специалистам в области информатики, вычислительной
+                                        техники, информационных и коммуникационных технологий.
+                                    </p>
+                                    <p>
+                                        В ходе обучения студенты имеют возможность стажироваться и участвовать в
+                                        научно-исследовательских проектах, выполняемых в передовом подразделении
+                                        университета –
+                                        <a href="https://vkist.guap.ru/" target="_blank">Центре аэрокосмических
+                                            исследований и разработок</a>.
+                                    </p>
+
+                                </section>
+                            </div>
+                            <div class="tab-pane" id="tab_k14_4" role="tabpanel">
+                                <section class="about-text">
+                                    <h3 style="color: #000;">Направления научных исследований</h3>
+
+                                    <ul class="list-margin" style="list-style-type: disc; margin-left: 1em;">
+                                        <li>
+                                            Сети передачи данных и беспроводные технологии
+                                        </li>
+                                        <li>
+                                            Обработка и передача аудио- и видеоинформации, сигналов различного рода
+                                        </li>
+                                        <li>
+                                            Архитектура микропроцессоров. Системы и сети-на-кристалле
+                                        </li>
+                                        <li>
+                                            Высокопроизводительные вычисления, параллельные системы
+                                        </li>
+                                        <li>
+                                            Функциональная микроэлектроника
+                                        </li>
+                                        <li>
+                                            Коды, исправляющие ошибки, защита информации, квантовая информация и
+                                            квантовая криптография
+                                        </li>
+                                        <li>
+                                            Технологии искусственного интеллекта, нейронные сети
+                                        </li>
+                                        <li>
+                                            Системы обработки информации и управления аэрокосмического назначения
+                                        </li>
+                                        <li>
+                                            Современные бортовые технологии обмена данными для летательных аппаратов
+                                        </li>
+                                    </ul>
+
+
+
+                                    <h3>Основные достижения</h3>
+                                    <ul class="list-margin" style="list-style-type: disc; margin-left: 1em;">
+                                        <li>
+                                            Разработка новых моделей динамических параллельных вычислений
+                                        </li>
+                                        <li>
+                                            Разработка новых языков и инструментов параллельного программирования
+                                        </li>
+                                        <li>
+                                            Разработка высокопроизводительных архитектур и систем на кристалле
+                                        </li>
+                                        <li>
+                                            Разработка методик проектирования коммуникационных технологий
+                                        </li>
+                                        <li>
+                                            Создание уникальных стандартов передачи данных на борту космических
+                                            аппаратов (SpaceWire, GigaSpaceWire, SpaceFibre и смежных с ними)
+                                        </li>
+                                        <li>
+                                            Участие в создании спутника «НОРБИ-1» - на орбите с сентября 2020 г.
+                                        </li>
+                                        <li>
+                                            Разработка уникальной системы проектировании и моделирования сетей
+                                            SpaceWire, не имеющей мировых аналогов
+                                        </li>
+                                        <li>
+                                            Построение новых классов кодов, разработка новых алгоритмов декодирования.
+                                        </li>
+                                        <li>
+                                            Разработка новых сигнально-кодовых конструкций и методов их обработки.
+                                        </li>
+                                        <li>
+                                            Разработка новых алгоритмов сжатия аудио – и видеоинформации.
+                                        </li>
+                                        <li>
+                                            Построение новых протоколов передачи информации в системах со случайным
+                                            множественным доступом.
+                                        </li>
+                                        <li>
+                                            Создание информационных систем безопасности критических процессов и
+                                            технологий.
+                                        </li>
+                                        <li>
+                                            Разработка и исследование алгоритмов обработки информации для протоколов
+                                            квантовой криптографии.
+                                        </li>
+                                        <li>
+                                            Разработка криптографических систем разделения секретов
+                                        </li>
+                                    </ul>
+                                    <p>
+                                        Кафедра известна своей научно-педагогической школой по теории информации и
+                                        помехоустойчивому кодированию. Основателем этой школы является профессор Николай
+                                        Андреевич Железнов, который в 1960 году организовал в Ленинградском институте
+                                        авиационного приборостроения первую в СССР кафедру технической кибернетики.
+                                        Сегодня эта кафедра - кафедра информационных систем ГУАП.
+                                    </p>
+
+                                    <p>
+                                        Н.А. Железнов - автор неэргодической теории сигналов, научный редактор первых
+                                        переводов на русский язык трудов основоположников кибернетики и теории
+                                        информации Н. Винера и К. Шеннона. Вместе с академиками А.Бергом и В. Глушковым
+                                        Н.А. Железнов принимал активное участие в написании Кибернетической
+                                        энциклопедии, издании журнала «Вопросы кибернетики». По инициативе Н.А.
+                                        Железнова в 1962 году был проведен Первый Всесоюзный симпозиум «Проблемы
+                                        избыточности в информационных системах». Научная общественность и Совет по
+                                        комплексной проблеме «Кибернетика» при Президиуме АН СССР одобрили и поддержали
+                                        эту инициативу. Симпозиум стал регулярным. На протяжении почти 30 лет кафедра
+                                        совместно с АН СССР организовывала и проводила этот симпозиум.
+                                    </p>
+
+                                    <p>
+                                        Тематика исследований, начатых Н.А. Железновым, М.Б. Игнатьевым, Е.Т.
+                                        Мирончиковым, В.Д. Колесником, со временем была расширена работами Б.С.
+                                        Петровского и его учеников в области функциональной микроэлектроники, разработки
+                                        и создания информационных систем безопасности критических процессов и
+                                        технологий.
+                                    </p>
+
+                                    <p>
+                                        Благодаря исследованиями Ю.Е. Шейнина, его учеников и последователей в области
+                                        архитектуры систем на кристалле, высокопроизводительных вычислений и
+                                        коммуникационных технологий тематика кафедры приобрела широкий спектр
+                                        IT-направленностей, касающихся разработки программного обеспечения,
+                                        микроэлектроники, моделей систем коммуникационных стандартов.
+                                    </p>
+
+                                    <p>
+                                        В настоящее время неотъемлемой частью работы кафедры является Центр
+                                        аэрокосмических исследований и разработок (Aerospace R&D Centre). Центр взял на
+                                        себя задачу стать связующим звеном между наукой, образованием и производством в
+                                        рамка ядерного направления ГУАП «Аэрокосмос». Это новая структура, которая
+                                        состоит из трех основных сущностей: Исследования, Образование и Производство.
+                                        «Исследования» обеспечивают решение индустриальных проблем наиболее передовыми
+                                        методами, производят новые знания и новые методы, выращивают новые научные
+                                        кадры, обеспечивают репутацию и притягивают высококвалифицированные кадры.
+                                    </p>
+
+                                    <p>
+                                        «Образование» отвечает за производство молодых кадров двух классов: будущие
+                                        ученые и будущие инноваторы, дает реальный опыт ведения исследований и их
+                                        практическое воплощение, гибкие траектории, гибридные программы, активные методы
+                                        преподавания, проектную работу, междисциплинарные навыки, широкий спектр не
+                                        только академических, но и коммуникационных компетенций внутри научного
+                                        сообщества.
+                                    </p>
+
+                                    <p>
+                                        «Производство» отвечает за производство техники и технологий, создание
+                                        промышленных прототипов, формирование практических навыков и опыта: новые
+                                        изделия и продукты на основе знаний и разработанных технологий, прикладные
+                                        проекты, место получения практических знаний и навыков для обучающихся
+                                        инженеров, место их начального трудоустройства, апробация и прототипирование
+                                        научных идей.
+                                    </p>
+                                </section>
+                            </div>
+                            <div class="tab-pane" id="tab_k14_5" role="tabpanel">
+                                <div class="row mb-4">
+                                    <div class="col-lg-5 d-flex pb-3" style="gap: 1em;">
+                                        <img src="https://media.guap.ru/1021/olenev_vl.jpg?s=md" alt=""
+                                            style="border-radius: 50%;width: 80px; height: 80px;">
+                                        <p class="contants-info">
+                                            <b>Оленев Валентин Леонидовича</b><br>
+                                            заведующий кафедрой
+                                        </p>
+                                    </div>
+                                    <div class="col-lg-7">
+                                        Кабинет: 52-33 (Б. Морская 67)<br>
+                                        Кабинет: 33-09 (Гастелло 15)<br>
+                                        Телефон: (812) 710-62-34, 494-70-51, 708-42-11<br>
+                                        Эл. почта: <a class="link" data-u="sciencesuai" data-d="yandex.ru"
+                                            href="mailto:k14@guap.ru">k14@guap.ru</a><br>
+                                    </div>
+                                </div>
+                                <h5 style="color: #000;">По вопросам поступления:</h5>
+                                <div class="row mb-4">
+                                    <div class="col-lg-5 d-flex pb-3" style="gap: 1em;">
+                                        <img src="https://media.guap.ru/1021/kuznetsova_na_.jpg?s=xs" alt=""
+                                            style="border-radius: 50%;width: 80px; height: 80px;">
+                                        <p class="contants-info">
+                                            <b>Кузнецова Надежда Александровна
+                                            </b><br>
+                                            заместитель директора по младшим курсам
+                                        </p>
+                                    </div>
+                                    <div class="col-lg-7">
+                                        Гастелло, 15, каб. 13-11<br>
+                                        Телефон: (812) 708-42-02<br>
+                                        Эл. почта: <a class="link" data-u="sciencesuai" data-d="yandex.ru"
+                                            href="mailto: aerospace_dean@guap.ru"> aerospace_dean@guap.ru</a><br><a
+                                            class="link" data-u="sciencesuai" data-d="yandex.ru"
+                                            href="mailto: kuzna62@bk.ru">kuzna62@bk.ru</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+                <div class="col-sm-5 col-md-4 col-lg-3 d-sm-contents">
+                    <div class="site-menu mb-4">
+                        <ul class="main_right-menu_list py-3 border rounded">
+                            <li class="main_right-menu-item"><a href="../index.html" class="link d-block py-2 px-3">Об
+                                    институте</a></li>
+                            <li class="main_right-menu-item"><a href="history.html"
+                                    class="link d-block py-2 px-3">История</a></li>
+                            <li class="main_right-menu-item"><a href="science.html"
+                                    class="link d-block py-2 px-3">Наука</a></li>
+                            <li class="main_right-menu-item"><a href="collaboration.html"
+                                    class="link d-block py-2 px-3">Сотрудничество</a></li>
+                            <li class="main_right-menu-item"><a href="depts.html"
+                                    class="link d-block py-2 px-3">Подразделения</a></li>
+                            <li class="main_right-menu-item"><a href="edu.html"
+                                    class="link d-block py-2 px-3">Направления подготовки</a></li>
+                            <li class="main_right-menu-item"><a href="contacts.html"
+                                    class="link d-block py-2 px-3">Контакты</a></li>
+                        </ul>
+                    </div>
+                    <div class="site-right-info" style="order: -4;">
+                        <div class="main_right-info">
+                            <a href="https://guap.ru/aeot" class="main_right-info-link d-block mb-4"
+                                style="border-bottom: solid 3px #006CB4">
+                                <div class="main_right-info-link-content py-3 px-3 border">
+                                    <p class="main_right-info-text mb-3">Международная конференция</p>
+                                    <h6 class="main_right-info-title mb-3">«Аэрокосмическое приборостроение
+                                        и&nbsp;эксплуатационные технологии»</h6>
+                                    <p class="main_right-info-text mb-2">4-20 апреля 2024 г.</p>
+                                </div>
+                            </a>
+                            <a href="https://new.guap.ru/i01/avionika" class="main_right-info-link d-block mb-4"
+                                style="border-bottom: solid 3px #006CB4">
+                                <div class="main_right-info-wrapper py-3 px-3 border d-flex">
+                                    <i class="gi gi-exhibition d-block d-sm-none d-md-block"
+                                        style="font-size: 40px; margin-right: 0.2em;"></i>
+                                    <div class="main_right-info-link-content">
+                                        <h6 class="main_right-info-title">«Авионика»</h6>
+                                        <p class="main_right-info-text pb-2">Юношеская аэрокосмическая школа высоких
+                                            технологий</p>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="http://www.salogistics.ru/index.php?option=com_content&amp;task=view&amp;id=50&amp;Itemid=83"
+                                class="main_right-info-link d-block mb-4" style="border-bottom: solid 3px #006CB4">
+                                <div class="main_right-info-wrapper border px-3 py-3 d-flex">
+                                    <i class="gi gi-science-journal d-block d-sm-none d-md-block"
+                                        style="font-size: 40px; margin-right: 0.2em;"></i>
+                                    <div class="main_right-info-link-content mb-2">
+                                        <p class="main_right-info-text">Научный журнал «Cистемный анализ и логистика»
+                                        </p>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="http://iiaat.guap.ru/" class="main_right-info-link mb-4 d-block"
+                                style="border-bottom: solid 3px #006CB4">
+                                <div class="main_right-info-link-content py-3 px-3 border">
+                                    <p class="main_right-info-text">Международный институт передовых аэрокосмических
+                                        технологий – МИПАКТ</p>
+                                    <p class="main_right-info-subtitle" style="font-size: 13px;">(IIAAT of SUAI)</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="mt-auto">
+        <div class="site-footer text-light pt-5 pb-3" style="background-color: var(--guap-color-primary-darker);">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3 col-md-4">
+                        <img class="img-fluid d-none d-md-block pe-3"
+                            src="https://src.guap.ru/logos/guap/guap-desc_w.svg"
+                            alt="Санкт-Петербургский государственный университет аэрокосмического приборостроения (лого-1)">
+                        <img class="img-fluid d-block d-md-none mw-100 mb-4" style="width: 30rem;"
+                            src="https://src.guap.ru/logos/guap/guap-desc-line_w.svg"
+                            alt="Санкт-Петербургский государственный университет аэрокосмического приборостроения (лого-2)">
+                    </div>
+                    <div class="col-lg-9 col-md-8">
+                        <div class="d-flex flex-wrap my-3">
+                            <a class="btn btn-outline-light btn-sm m-1" href="https://guap.ru/sveden">Сведения
+                                об&nbsp;образовательной организации</a>
+                            <a class="btn btn-outline-light btn-sm m-1" href="https://pro.guap.ru/">Интегрированная
+                                среда обучения</a>
+                            <a class="btn btn-outline-light btn-sm m-1" href="https://guap.ru/sveden/struct">Структура
+                                ГУАП</a>
+                            <a class="btn btn-outline-light btn-sm m-1" href="/sitemap">Карта сайта</a>
+                            <a class="btn btn-outline-light btn-sm m-1" href="https://guap.ru/sveden/site">Информация
+                                для лиц с&nbsp;ОВЗ</a>
+                            <a class="btn btn-outline-light btn-sm m-1"
+                                href="https://guap.ru/sveden/policy-personal-data">Политика обработки персональных
+                                данных</a>
+                        </div>
+                        <div class="my-5">
+                            <p>
+                                <span class="d-block opacity-50 fs-6">Приемная комиссия:</span>
+                                <span class="me-2"><a href="https://priem.guap.ru/">https://priem.guap.ru</a>,</span>
+                                <span class="me-2"><a class="link-tel text-nowrap" itemprop="telephone"
+                                        href="tel:+78123122107">+7-812-312-21-07</a>,</span>
+                                <span class="me-2"><a href="mailto:priem@guap.ru"
+                                        class="link-email text-nowrap">priem@guap.ru</a></span>
+                            </p>
+                            <p>
+                                <span class="d-block opacity-50 fs-6">Отдел информационно-стратегических коммуникаций
+                                    и&nbsp;рекламы:</span>
+                                <span class="me-2"><a href="mailto:pr@guap.ru"
+                                        class="link-email text-nowrap">pr@guap.ru</a></span>
+                            </p>
+                            <p>
+                                <span class="d-block opacity-50 fs-6">Отдел делопроизводства:</span>
+                                <span class="me-2"><a class="link-tel text-nowrap" itemprop="telephone"
+                                        href="tel:+78124947005">+7-812-494-70-05</a>,</span>
+                                <span class="me-2"><a class="link-tel text-nowrap" itemprop="telephone"
+                                        href="tel:+78124947057">+7-812-494-70-57</a>&nbsp;(факс),</span>
+                                <span class="me-2"><a href="mailto:info@guap.ru"
+                                        class="link-email text-nowrap">info@guap.ru</a></span>
+                            </p>
+                            <p>
+                                <span class="d-block opacity-50 fs-6">Вопросы по&nbsp;работе сайта:</span>
+                                <span class="me-2"><a href="mailto:ais_team@guap.ru"
+                                        class="link-email text-nowrap">ais_team@guap.ru</a></span>
+                            </p>
+                            <p>
+                                <span class="d-block opacity-50 fs-6">Почтовый адрес:</span>
+                                <span class="me-2">ГУАП, ул.&nbsp;Большая Морская, <nobr>д.&nbsp;67, лит. А</nobr>,
+                                    <nobr>Санкт-Петербург</nobr>, 190000, Россия
+                                </span>
+                            </p>
+                        </div>
+                        <hr>
+                        <div class="d-flex flex-wrap justify-content-center align-items-center">
+                            <a class="btn btn-outline-link" target="_blank" href="https://vk.com/guap_ru"
+                                title="ВКонтакте">
+                                <span class="fs-4"><i class="gi-logo-vk"></i></span>
+                            </a>
+                            <a class="btn btn-outline-link" target="_blank" href="https://ok.ru/guapru"
+                                title="Одноклассники">
+                                <span class="fs-4"><i class="gi-logo-ok"></i></span>
+                            </a>
+                            <a class="btn btn-outline-link" target="_blank" href="https://rutube.ru/channel/23832078/"
+                                title="RUTUBE">
+                                <span class="fs-4"><i class="gi-logo-rutube"></i></span>
+                            </a>
+                            <a class="btn btn-outline-link" target="_blank" href="https://t.me/new_guap"
+                                title="Telegram">
+                                <span class="fs-4"><i class="gi-logo-telegram"></i></span>
+                            </a>
+                            <a class="btn btn-outline-link" href="https://guap.ru/faq">
+                                <span class="fs-4"><i class="bi-question-circle"></i>&nbsp;Вопросы и ответы</span>
+                            </a>
+                        </div>
+                        <hr>
+                        <div class="mt-5 opacity-50">
+                            <p>Разработка сайта — <a href="https://guap.ru/it">УЦР ГУАП 2023</a></p>
+                            <p>ФГАОУ ВО «Санкт-Петербургский государственный университет аэрокосмического
+                                приборостроения»</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script>
+        $(function () {
+            var hash = window.location.hash;
+            hash && $('ul.nav a[href="' + hash + '"]').tab('show');
+
+            $('.nav-tabs a').click(function (e) {
+                $(this).tab('show');
+                var scrollmem = $('body').scrollTop();
+                window.location.hash = this.hash;
+                $('html,body').scrollTop(scrollmem);
+            });
+        });
+    </script>
+</body>
+
+</html>
