@@ -359,6 +359,6 @@ footer {
     border-radius: 2pt;
     box-shadow: 0 0 2pt rgba(0,0,0,.5);
     display: block;
-    max-width: 100%;
+    width: 100%;
     height: auto;
 }
